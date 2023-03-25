@@ -591,14 +591,16 @@ margin: 0 8px;
 #about {
   padding: 100px 0;
   background: #f1f1f1;
-  background: url('../images/img2.jpg');    
-  background-size: cover;  };
+  /*
+  background: url('../images/img2.jpg'); 
+  */   
+  background-size: cover;
 }
 #about .column-title{
-color:#fff;
+color:#000000;
 }
 #about p{
-color:#fff;
+color:var(--my-color);
 }
 #about .listarrow li{
 color:#fff;
