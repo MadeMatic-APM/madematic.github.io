@@ -6,12 +6,15 @@ Author URL: http://webthemez.com
 /*************************
 *******Typography******
 **************************/
+:root {
+  --my-color: #009638;
+}
 body {
   padding-top: 100px;
   background: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  color: #282828;
+  color: var(--my-color);
   line-height: 26px;
   padding: 0;
 }
@@ -58,7 +61,7 @@ text-align:center;
 }
 .section-header .section-title {
   font-size: 44px;
-  color: #F9690E;
+  color: var(--my-color);
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;  
@@ -74,7 +77,7 @@ text-align:center;
   bottom: -5px;
   right: 0;
   width: 30px;
-  background: rgb(249, 105, 14);
+  background: var(--my-color);
   border-radius: 50%;
   margin: 0 auto;
   left: 0;
@@ -87,11 +90,11 @@ text-align:center;
   border-radius: 0;
 }
 .btn.btn-primary {
-  background: #CD4F00;
+  background: var(--my-color);
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #FF8A41;
+  background: var(--my-color);
 }
 .listarrow{
 padding:0px;
@@ -103,7 +106,7 @@ padding:0px;
 }
 .listarrow li i{
 padding-right:15px;
-color: #F9690E;
+color: var(--my-color);
 }
 .column-title {
   margin-top: 0;
@@ -172,7 +175,7 @@ text-transform: uppercase;
 background: #FFFFFF;
 }
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
-background: rgb(249, 105, 14);
+background: var(--my-color);
 color: #FFFFFF;
 }
 .navbar.navbar-default {
@@ -188,7 +191,7 @@ color: #FFFFFF;
   padding: 10px 15px 1px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-color: #F8680D;
+color: var(--my-color);
  
 background: transparent;
 }
@@ -214,7 +217,7 @@ background: #FFF;
     border-bottom: 4px solid transparent;
 }
   .navbar-default .navbar-nav>li>a {
-	color: #0E0E0E;
+	color: #000000;
 	}
   #main-nav.navbar-default .navbar-nav > li.active > a,
 
@@ -222,13 +225,13 @@ background: #FFF;
   #main-nav.navbar-default .navbar-nav > li:hover > a {
     background: transparent; 
 	
-    color: #F9690E;
+    color: var(--my-color);
   
 }
   #main-nav.navbar-default .dropdown-menu {
     padding: 0 20px;
     min-width: 220px;
-    background-color: rgba(26, 28, 40, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -265,9 +268,11 @@ background: #FFF;
 #hero-banner{
   overflow: hidden;
   height: 700px;
+  /*
   background: url('../images/banner/banner.jpg');
+  */
   background-size:cover;
-  color:#fff;
+  color: var(--my-color);
 }
 #hero-banner.item {
   height: 558px;
@@ -291,7 +296,7 @@ background: #FFF;
   text-align: right;  
 }
 #hero-banner h2 b{
-color:#F9690E;
+color:var(--my-color);
 }
 #hero-banner p { 
   font-size: 22px; 
@@ -304,7 +309,8 @@ width: 150px;
 margin: 0;
 display: block;
 background: transparent;
-border: 2px solid #fff;
+border: 2px solid var(--my-color);
+color: var(--my-color);
 float: right;
 }
 #hero-banner a:hover{
@@ -312,8 +318,8 @@ text-align: center;
 width: 150px;
 margin: 0 auto;
 display: block;
-background: #F9690E;
-border: 2px solid #F9690E;
+background: var(--my-color);
+border: 2px solid var(--my-color);
 color: #FFF;
 }
 #hero-banner.banner-inner h2 > span {
@@ -349,7 +355,7 @@ color: #FFF;
 #cta2 h2 > span {
   color: #45aed6;
 }
-#features h2, #portfolio p{ color: #C3C3C3;}
+#features h2, #portfolio p{ color: var(--my-color);}
 #features {
   padding: 100px 0;
   background: #FFFFFF;
@@ -369,7 +375,7 @@ color: #FFF;
   position: relative;
   background: #FFFFFF;
   border-radius: 0 0 20px 0;
-  border: #F9690B 2px solid;
+  border: var(--my-color) 2px solid;
 }
 .media.service-box .pull-left {
   margin-right: 20px;
@@ -391,7 +397,7 @@ color: #FFF;
   left: -13px;
   top: -15px;
   vertical-align: middle;
-  background: rgb(249, 105, 14);
+  background: var(--my-color);
   border-radius: 10% 20%;
   height: 80px;
   border: 6px #fff solid;
@@ -430,7 +436,7 @@ padding-top: 10px;
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-  background: #F9690E;
+  background: var(--my-color);
   color: #FFFFFF; 
 } 
 #portfolio .portfolio-items {
@@ -475,7 +481,7 @@ padding-top: 10px;
   height: 60px;
   line-height: 36px;
   text-align: center;
-  color: #F9690E;
+  color:var(--my-color);
   display:block;
   text-align: center;
 
@@ -555,7 +561,7 @@ transition: all .2s ease-in-out;
 margin-bottom: 15px;
 }
 #testimonial {
-  background: #222222;
+  background: #000000;
   background-size: cover;
   padding: 100px 0;
   color: #fff;
@@ -584,7 +590,7 @@ margin: 0 8px;
 }
 #about {
   padding: 100px 0;
-  background: #07080A;
+  background: #f1f1f1;
   background: url('../images/img2.jpg');    
   background-size: cover;  };
 }
@@ -605,16 +611,18 @@ color:#fff;
   padding: 0;  
 }
 #our-team .team-member .team-img {
-  margin: 0;
+  display: flex;
+  justify-content: center;
+
 }
 #our-team .team-member .team-info { 
-  background: #222222;
-  color: #BBBBBB;
+  background: #309252;
+  color: #ffffff;
   padding: 7px 0;
   border-top: 2px solid #fff;
 } 
 #our-team .team-member:hover .social-icons > li > a {
-  color: #F9690E;
+  color: var(--my-color);
 }
  
 #our-team .social-icons {
@@ -682,7 +690,7 @@ line-height: 22px;
 .single-testimonial h5{
 	padding: 8px 0 0px;
 	font-size: 16px;
-	color: #F9690E;
+	color: var(--my-color);
 }
  
 .progress {
@@ -750,7 +758,7 @@ margin: 0;
 #business-stats h2,
 #business-stats h3,
 #business-stats h4 {
-  color: #151313;
+  color: #000000;
 }
 #business-stats strong {
   display: block;
@@ -762,7 +770,7 @@ margin: 0;
   height: 140px;
   font-size: 24px;
   line-height: 140px;
-  border: 4px solid #F9690E;
+  border: 4px solid var(--my-color);
   border-radius: 100px;
   margin-bottom: 20px;
 }
@@ -832,7 +840,7 @@ li.plan-purchase .btn {
 color: #FFFFFF;
 }
 #pricing ul.pricing.featured li.plan-header {
-  background: #F9690E;
+  background: var(--my-color);
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #FFFFFF;
@@ -845,7 +853,7 @@ color: #FFFFFF;
 }
 /*Contact*/
  .contact-info{
- background: #F9690E;
+ background: var(--my-color);
  padding: 50px;
  margin-bottom: 50px;
 }
@@ -882,7 +890,7 @@ width: 100px;
   color: #fff;
 }
 #footer a:hover {
-  color: #F9690E;
+  color: var(--my-color);
 }
 #footer ul {
   list-style: none;
@@ -946,3 +954,4 @@ margin: 9px auto;
 padding: 7px 0 0;
 }
 }
+
