@@ -890,6 +890,7 @@ height: 100px;
 border-radius: 50%;
 position: absolute;
 width: 100px;
+color: #000;
 }
 /***********************
 ********* Footer ******
@@ -969,3 +970,36 @@ padding: 7px 0 0;
 }
 }
 
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  height: 50px;
+  width: 50px;
+  border: 6px solid #fafafa;
+  border-top-color: #e16971;
+  border-bottom-color: #e16971;
+  border-radius: 100%;
+  animation: loading 1.5s infinite linear;
+}
