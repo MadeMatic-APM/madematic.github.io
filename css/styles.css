@@ -755,7 +755,7 @@ margin: 0;
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #eee;
 }
-#business-stats, #parametros {
+#business-stats, #parametros, #planeacion {
   padding: 100px 0 70px;
   background: #FFFFFF;
   background-size: cover;
@@ -764,7 +764,7 @@ margin: 0;
   background-size: contain;
   margin: 0 auto;
 }
-#business-stats p, #parametros p{
+#business-stats p, #parametros p, , #planeacion p{
   padding: 100px 0 70px;
   background: #FFFFFF;
   background-size: cover;
@@ -776,10 +776,11 @@ margin: 0;
 #business-stats h2,
 #business-stats h3,
 #business-stats h4, 
-#parametros h1, #parametros h2, #parametros h3, #parametros h4 {
+#parametros h1, #parametros h2, #parametros h3, #parametros h4, 
+#planeacion h1, #planeacion h2, #planeacion h3, #planeacion h4 {
   color: var(--my-color);
 }
-#business-stats strong, #parametros strong {
+#business-stats strong, #parametros strong, #planeacion strong {
   display: block;
   margin-bottom: 30px;
 }
@@ -1176,4 +1177,8 @@ table {
 
 #industria img, iframe{
   margin: 0 auto;
+}
+
+#our-team h3 {
+  color: white;
 }
