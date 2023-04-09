@@ -1154,4 +1154,10 @@ table {
 #modulos i:hover, h4:hover{
   color: #000;
 }
+#modulos h4, i {
+  color: var(--my-color) !important;
+}
 
+i {
+  font-size: 40px !important;
+}
