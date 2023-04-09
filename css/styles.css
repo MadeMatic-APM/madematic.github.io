@@ -608,7 +608,8 @@ color:var(--my-color);
 color:#fff;
 }
 /*Team*/ 
-#our-team {
+#our-team, #modulos, #gestion, #industria, #planeacion, #evaluacion,
+#celda, #digital, #controladores, #comunicaciones, #scada {
   padding: 100px 0;
 }
 #our-team .team-member {
@@ -1151,13 +1152,25 @@ table.table>tbody>tr:hover th {
 table {
   color: black;
 }
-#modulos i:hover, h4:hover{
-  color: #000;
+#modulos i:hover, #modulos h4:hover{
+  color: #000 !important;
 }
-#modulos h4, i {
+#modulos h4, #modulos i {
   color: var(--my-color) !important;
 }
 
-i {
+#modulos i {
   font-size: 40px !important;
+}
+
+#gestion title {
+  color: #000 !important;
+}
+
+.linea {
+  border-top: 2px solid black;
+  height: 2px;
+  max-width: 200px;
+  padding: 0;
+  margin: 10px auto 20px auto;
 }
