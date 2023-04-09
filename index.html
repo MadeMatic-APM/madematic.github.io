@@ -673,9 +673,13 @@
             <div class="section-header">
                 <h2 class="text-center wow fadeInDown">Análisis con software de simulación </h2>
                 <div class="linea"></div>
+
+                <p>Para el análisis mediante el uso del software de simulación Plant Simulation 2201 se desarrolló 
+                    inicialmente cada uno de los espacios de trabajo como se puede observar a continuación, y al establecer los parámetros 
+                base de producción se obtuvieron los resultados dados.</p>
             </div>
-
-
+            
+            <img class="img-responsive scale-in-top" src="images/Referencia/PlantSimulation.png" alt="Simulación de planta">
 
         </div>
 
@@ -683,9 +687,26 @@
             <div class="section-header">
                 <h2 class="text-center wow fadeInDown">Diagrama VSM </h2>
                 <div class="linea"></div>
+
+                <p>El diagrama VSM para el proceso de cada uno de los productos con el procedimiento manual y automatizado 
+                    se puede observar a continuación.</p>
             </div>
 
             <embed src="Documents/1. Gestión de Producción y Autoatización/VSM.pdf#zoom=80" type="application/pdf" width="100%" height="700px">
+
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <h2 class="text-center wow fadeInDown">Sistema MES</h2>
+                <div class="linea"></div>
+
+                <p>La propuesta que se plantea inicialmente para llevar la información de la planta a un sistema MES se basa en obtener los
+                    datos necesarios con sensores, para por ejemplo conocer la cantidad de unidades que están en cola de espera a ser
+                    procesadas, dato que se podría obtener de un sensor de paso en el cual cada interrupción se puede denotar como 
+                    una unidad, dicho sensor se conectará mediante el software ignition lo que permitirá tener un mayor control sobre cada una
+                    de las variables involucradas.</p>
+            </div>
 
         </div>
 
@@ -700,9 +721,14 @@
             <div class="section-header">
                 <h2 class="text-center wow fadeInDown">Arquitectura de Comunicaciones</h2>
                 <div class="linea"></div>
+
+                <p>Para la arquitectura de comunicaciones necesaria para el desarrollo del sistema de automatización se 
+                    planteo el siguiente esquema de comunicaciones, la cual permite llevar a cabo cada una de las actividades
+                    propuestas en el proceso de automatización.
+                </p>
             </div>
 
-            
+            <img class="img-responsive scale-in-top" src="images/Referencia/Arquitectura de Control.jpeg" alt="">
 
         </div>
 
@@ -710,9 +736,62 @@
             <div class="section-header">
                 <h2 class="text-center wow fadeInDown">Selección de Maquinaria</h2>
                 <div class="linea"></div>
+
+                <p>Realizando un análisis de cuáles son las etapas que consumen un mayor tiempo y por lo mismo retrasan la producción, 
+                    observamos que estas etapas son los cortes, el sellado y el empacado, siendo estos nuestros procesos a automatizar.</p>
             </div>
 
+            <h3 class="text-center">Automatización etapa de cortes Especifico y General</h3>
+
+            <p class="text-center">Después de una amplia revisión se concluyó que la mejor forma de automatizar este proceso es mediante el uso de una CNC, 
+                esta debe contar con un sistema de corte por sierra para los cortes exteriores y un sistema de corte con fresa para los 
+                cortes internos, además, debe contar con un sistema de absorción de aserrín.</p>
+            <p class="text-center">Se selecciono un 
+                <a target="_blank" href="https://es.elephantlaser.com/auto-feeding-furniture-cabinet-making-machine-with-cnc-wood-cutting-saws/" 
+                title="Free Bootstrap Themes and HTML Templates">Router CNC</a> industrial de la marca BLUE ELEPHANT, ya que este cumple con las características deseadas, 
+                adicionalmente, sus dimensiones y velocidades de corte son adecuadas para nuestra aplicación.</p>
+
+            <img class="img-responsive scale-in-top " src="images/Maquinas/CNC.jpg" alt="">
+
+            <p class="text-center">En el siguiente video se puede observar una demostración de aplicación de la maquina CNC:</p>
             
+            <iframe class="center-block" width="560" height="315" src="https://www.youtube-nocookie.com/embed/K-x2dmTO5ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h3 class="text-center">Automatización etapa de sellado</h3>
+
+            <p class="text-center">Se observa que este es uno de los procesos que más tiempo gasta debido al tiempo de secado de la pieza, 
+                por esto se concluyó que la mejor forma de automatizar este proceso es mediante el uso de un brazo robótico el cual 
+                aplique el sellador y posteriormente la ubique en una banda para su secado rápido por medio de un sistema de bombeo de 
+                aire caliente.</p>
+
+            <p class="text-center">La selección del robot se hará en detalle en la sección de Celda Robotizada, sin embargo, debido a su 
+                parecido con el proceso de pintura se espera que el robot seleccionado sea de esta índole, de manera preliminar se 
+                selecciona el Robot de pintura <a target="_blank" href="https://www.yaskawa.es/productos/robots/painting/productdetail/product/mpx3500_751" 
+                title="Free Bootstrap Themes and HTML Templates">MPX3500 de YASKAWA</a>, ya que a grandes rasgos cumple con las 
+                necesidades de nuestro proceso.</p>
+
+            <img class="img-responsive scale-in-top " src="images/Maquinas/Robot.png" alt="">
+
+            <p class="text-center">En el siguiente video se puede observar una demostración de aplicación de robot:</p>
+            
+            <iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/Tje46kTNnR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <h3 class="text-center">Automatización etapa de empacado</h3>
+
+            <p class="text-center">El proceso de separar las piezas al hacerlo de forma manual es demorado y susceptible a la mayoría de los 
+                errores, se concluyó que esta etapa se va a automatizar mediante el uso de separadores en las bandas transportadoras 
+                controlados por un PLC.</p>
+
+            <p class="text-center">Se selecciono <a target="_blank" href="https://www.dornerconveyors.com/latin-america/es/soluciones/separadores-insertadores-plataformas" 
+                title="Free Bootstrap Themes and HTML Templates">separadores neumáticos de la marca DORNER</a>, ya que tienen la capacidad 
+                de mover piezas con dimensiones y peso considerable, y adicionalmente como son neumáticos son menos susceptibles a contaminar el producto.</p>
+
+            <img class="img-responsive scale-in-top " src="images/Maquinas/Separador.jpg" alt="">
+
+            <p class="text-center">En el siguiente video se puede observar una demostración de aplicación de los separadores usando PLC y 
+                actuadores neumáticos.</p>
+
+            <iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/LcKM4b4c-zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         </div>
     </section>

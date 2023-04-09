@@ -272,7 +272,7 @@ background: #FFF;
   height: 700px;
   background-image: url('../images/logos/Logo07.png');
   background-size: cover;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 #hero-banner.item {
   height: 558px;
@@ -328,7 +328,6 @@ color: #FFF;
 #hero-banner.banner-inner .btn {
   margin-top: 10px;
 } 
- 
 #hero-text {
   padding: 50px 0;
   border-top: 1px solid #FFFFFF;
@@ -1173,4 +1172,8 @@ table {
   max-width: 200px;
   padding: 0;
   margin: 10px auto 20px auto;
+}
+
+#industria img, iframe{
+  margin: 0 auto;
 }
