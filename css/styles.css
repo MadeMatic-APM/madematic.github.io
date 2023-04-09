@@ -27,6 +27,7 @@ h5,
 h6 {
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
+  color: var(--my-color);
 }
 a {
   color: #45aed6;
@@ -1150,3 +1151,11 @@ table.table>tbody>tr:hover th {
 table {
   color: black;
 }
+#modulos i:hover, h4:hover{
+  color: #000;
+}
+i {
+  font-size: 40px;
+  color: var(--my-color);
+}
+
