@@ -47,10 +47,48 @@
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="index.html">Inicio</a></li>  
                         <li class="scroll"><a href="index.html#productos">Productos</a></li>
-                        <li class="scroll"><a href="index.html#modulos">Módulos</a></li>
+                        
+                        <div class="dropdown navbar-nav ">
+                            <button onclick="myFunction()" class="dropbtn scroll">Módulos</button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="modulo1_gestion.html#gestion">Gestión de Producción y Automatización</a>
+                              <a href="modulo2_industria.html#industria">Industria 4.0 en la Automatización</a>
+                              <a href="modulo3_planeacion.html#planeacion">Planeación del Proyecto</a>
+                              <a href="modulo4_evaluacion.html#evaluacion">Evaluación Económica de Proyectos</a>
+                              <a href="modulo5_celda.html#celda">Celda de Manufactura Robotizada</a>
+                              <a href="modulo6_digital.html#digital">Digital Factory</a>
+                              <a href="modulo7_controladores.html#controladores">Controladores Industriales (PLC)</a>
+                              <a href="modulo8_comunicaciones.html#comunicaciones">Comunicaciones</a>
+                              <a href="modulo9_scada.html#scada">SCADA</a>
+                            </div>
+                        </div>
+
+                        <script>
+                            /* When the user clicks on the button,
+                            toggle between hiding and showing the dropdown content */
+                            function myFunction() {
+                            document.getElementById("myDropdown").classList.toggle("show");
+                            }
+
+                            // Close the dropdown menu if the user clicks outside of it
+                            window.onclick = function(event) {
+                            if (!event.target.matches('.dropbtn')) {
+                                var dropdowns = document.getElementsByClassName("dropdown-content");
+                                var i;
+                                for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                }
+                                }
+                            }
+                            }
+                        </script>
+
+                        <li class="scroll"><a href="avance1.html">Primer Avance</a></li>
                         <li class="scroll"><a href="index.html#our-team">Equipo</a></li>                       
                     </ul>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo_unal.png" width="140" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html#home"><img src="images/logo_unal.png" width="140" alt="logo"></a>
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
