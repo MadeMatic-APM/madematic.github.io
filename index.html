@@ -1,553 +1,812 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="webthemez">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="webthemez" />
     <title>MadeMatic</title>
-	<!-- core CSS 
+    <!-- core CSS 
         <link rel="stylesheet" href="css/style1.css">
     -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/solid.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet"> 
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/solid.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <script src="js/wow.min.js"></script>
     <script>
-        new WOW().init();
+      new WOW().init();
     </script>
     <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>    
-    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
+    <script src="js/respond.min.js"></script>
+    <link rel="shortcut icon" href="images/ico/favicon.ico" />
     <!--Comment init-->
-</head> 
+  </head>
 
-<body id="home">
+  <body id="home">
     <header id="header">
-        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logos/Logo07-1.png" width="70" alt="logo"></a>
-                </div>
-				
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="index.html">Inicio</a></li>  
-                        <li class="scroll"><a href="#productos">Productos</a></li>
-                        
-                        <div class="dropdown navbar-nav ">
-                            <button onclick="myFunction()" class="dropbtn scroll">Módulos</button>
-                            <div id="myDropdown" class="dropdown-content">
-                              <a href="modulo1_gestion.html#gestion">Gestión de Producción y Automatización</a>
-                              <a href="modulo2_industria.html#industria">Industria 4.0 en la Automatización</a>
-                              <a href="modulo3_planeacion.html#planeacion">Planeación del Proyecto</a>
-                              <a href="modulo4_evaluacion.html#evaluacion">Evaluación Económica de Proyectos</a>
-                              <a href="modulo5_celda.html#celda">Celda de Manufactura Robotizada</a>
-                              <a href="modulo6_digital.html#digital">Digital Factory</a>
-                              <a href="modulo7_controladores.html#controladores">Controladores Industriales (PLC)</a>
-                              <a href="modulo8_comunicaciones.html#comunicaciones">Comunicaciones</a>
-                              <a href="modulo9_scada.html#scada">SCADA</a>
-                            </div>
-                        </div>
+      <nav
+        id="main-nav"
+        class="navbar navbar-default navbar-fixed-top"
+        role="banner"
+      >
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"
+              ><img src="images/logos/Logo07-1.png" width="70" alt="logo"
+            /></a>
+          </div>
 
-                        <script>
-                            /* When the user clicks on the button,
+          <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="scroll active"><a href="index.html">Inicio</a></li>
+              <li class="scroll"><a href="#productos">Productos</a></li>
+
+              <div class="dropdown navbar-nav">
+                <button onclick="myFunction()" class="dropbtn scroll">
+                  Módulos
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="modulo1_gestion.html#gestion"
+                    >Gestión de Producción y Automatización</a
+                  >
+                  <a href="modulo2_industria.html#industria"
+                    >Industria 4.0 en la Automatización</a
+                  >
+                  <a href="modulo3_planeacion.html#planeacion"
+                    >Planeación del Proyecto</a
+                  >
+                  <a href="modulo4_evaluacion.html#evaluacion"
+                    >Evaluación Económica de Proyectos</a
+                  >
+                  <a href="modulo5_celda.html#celda"
+                    >Celda de Manufactura Robotizada</a
+                  >
+                  <a href="modulo6_digital.html#digital">Digital Factory</a>
+                  <a href="modulo7_controladores.html#controladores"
+                    >Controladores Industriales (PLC)</a
+                  >
+                  <a href="modulo8_comunicaciones.html#comunicaciones"
+                    >Comunicaciones</a
+                  >
+                  <a href="modulo9_scada.html#scada">SCADA</a>
+                </div>
+              </div>
+
+              <script>
+                /* When the user clicks on the button,
                             toggle between hiding and showing the dropdown content */
-                            function myFunction() {
-                            document.getElementById("myDropdown").classList.toggle("show");
-                            }
+                function myFunction() {
+                  document
+                    .getElementById("myDropdown")
+                    .classList.toggle("show");
+                }
 
-                            // Close the dropdown menu if the user clicks outside of it
-                            window.onclick = function(event) {
-                            if (!event.target.matches('.dropbtn')) {
-                                var dropdowns = document.getElementsByClassName("dropdown-content");
-                                var i;
-                                for (i = 0; i < dropdowns.length; i++) {
-                                var openDropdown = dropdowns[i];
-                                if (openDropdown.classList.contains('show')) {
-                                    openDropdown.classList.remove('show');
-                                }
-                                }
-                            }
-                            }
-                        </script>
+                // Close the dropdown menu if the user clicks outside of it
+                window.onclick = function (event) {
+                  if (!event.target.matches(".dropbtn")) {
+                    var dropdowns =
+                      document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains("show")) {
+                        openDropdown.classList.remove("show");
+                      }
+                    }
+                  }
+                };
+              </script>
 
-                        <li class="scroll"><a href="avance1.html">Primer Avance</a></li>
-                        <li class="scroll"><a href="#our-team">Equipo</a></li>                       
-                    </ul>
-                    <a class="navbar-brand" href="#home"><img src="images/logo_unal.png" width="140" alt="logo"></a>
-                </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
-    </header><!--/header-->
+              <li class="scroll"><a href="avance1.html">Primer Avance</a></li>
+              <li class="scroll"><a href="#our-team">Equipo</a></li>
+            </ul>
+            <a class="navbar-brand" href="#home"
+              ><img src="images/logo_unal.png" width="140" alt="logo"
+            /></a>
+          </div>
+        </div>
+        <!--/.container-->
+      </nav>
+      <!--/nav-->
+    </header>
+    <!--/header-->
 
     <section id="hero-banner">
-             <div class="banner-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    </section><!--/#main-slider-->
-
-    <section id="productos" >
+      <div class="banner-inner">
         <div class="container">
+          <div class="row">
+            <div class="col-sm-12"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#main-slider-->
 
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Nuestros Productos</h2>
-                <p class="wow fadeInDown">A continuación se puede ver en detalle cada uno de los productos a desarrollar mediante la implementación de celdas automatizadas.</p>
+    <div class="main" id="productos">
+      <div class="section-header">
+        <br />
+        <br />
+        <h2 class="section-title wow fadeInDown">Nuestros Productos</h2>
+        <p class="wow fadeInDown">
+          A continuación se puede ver en detalle cada uno de los productos a
+          desarrollar mediante la implementación de celdas automatizadas.
+        </p>
+      </div>
+      <ul class="cards">
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image">
+              <img
+                src="images/Referencia/Comedero.png"
+                alt="mixed vegetable salad in a mason jar."
+              />
+              <span class="card_price"><span>$</span>100.000</span>
             </div>
+            <div class="card_content">
+              <h2 class="card_title">Porta Platos</h2>
+              <div class="card_text">
+                <p>
+                  El producto es un porta-platos decorativo para mascotas, el
+                  cual por su sencillo armado permite poder situar fácilmente el
+                  alimento de las mascotas y de igual forma ser un producto
+                  decorativo de los hogares colombianos. Sus principales
+                  atributos son: se puede adecuar a mascotas de diferentes
+                  tamaños, cuenta con la capacidad de inclinar el plato para una
+                  mayor comodidad de las mascotas, es resistente y practico al
+                  momento de trasladarlo haciéndolo una opción ideal para viajes
+                  o trasteos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
 
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-futbol-o"></i>
-                            </div>
-                            <img class="media-body">
-                                <h4 class="media-heading">Porta Platos</h4>
-                                <p>El producto es un porta-platos decorativo para mascotas, el cual por su sencillo armado
-                                    permite poder situar fácilmente el alimento de las mascotas y de igual forma ser un producto
-                                    decorativo de los hogares colombianos. Sus principales atributos son: se puede adecuar a
-                                    mascotas de diferentes tamaños, cuenta con la capacidad de inclinar el plato para una mayor
-                                    comodidad de las mascotas, es resistente y practico al momento de trasladarlo haciéndolo una
-                                    opción ideal para viajes o trasteos.</p>
-                                <img class="img-responsive" src="images/Referencia/Comedero.png" alt="">
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
+        <li class="cards_item">
+          <div class="card">
+            <br />
+            <br />
+            <br />
+            <div class="card_image">
+              <img
+                src="images/Referencia/Repisa.png"
+                alt="a Reuben sandwich on wax paper."
+              />
+              <span class="card_price"><span>$</span>80.000</span>
+            </div>
+            <div class="card_content">
+              <h2 class="card_title">Repisa</h2>
+              <div class="card_text">
+                <p>
+                  El presente producto es una repisa decorativa diseñada para
+                  ser dispuesta en el cuarto de un niño, la cual, permite situar
+                  elementos decorativos no muy pesados sobre si misma, e
+                  incluso, permite colgar algunas prendas de vestir. La repisa
+                  se caracteriza por ser de fácil ensamblaje e instalación.
+                  Corte de materia prima.
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-compass"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Repisa</h4>
-                                <p>El presente producto es una repisa decorativa diseñada para ser dispuesta en el cuarto
-                                    de un niño, la cual, permite situar elementos decorativos no muy pesados sobre si misma, 
-                                    e incluso, permite colgar algunas prendas de vestir. La repisa se caracteriza por ser de fácil
-                                    ensamblaje e instalación.
-                                    Corte de materia prima.</p>
-                                <img class="img-responsive" src="images/Referencia/Repisa.png" alt="">
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-database"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Organizador</h4>
-                                <p>El producto permite organizar fácilmente el espacio de trabajo otorgando apoyo a pantallas de computador 
-                                    para obtener mayor elevación y, a su vez, con cada uno de los espacios con los que cuenta se pueden ubicar 
-                                    objetos que sean de mayor utilidad para el desarrollo de las actividades, ya sean académicas o de otra ocupación.</p>
-                                <img class="img-responsive" src="images/Referencia/Organizador.png" alt="">
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                </div>
-            </div><!--/.row-->    
-        </div><!--/.container-->
-    </section><!--/#productos-->
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image">
+              <img
+                src="images/Referencia/Organizador.png"
+                alt="A side view of a plate of figs and berries."
+              />
+              <span class="card_price"><span>$</span>65.000</span>
+            </div>
+            <div class="card_content">
+              <h2 class="card_title">Organizador</h2>
+              <div class="card_text">
+                <p>
+                  El producto permite organizar fácilmente el espacio de trabajo
+                  otorgando apoyo a pantallas de computador para obtener mayor
+                  elevación y, a su vez, con cada uno de los espacios con los
+                  que cuenta se pueden ubicar objetos que sean de mayor utilidad
+                  para el desarrollo de las actividades, ya sean académicas o de
+                  otra ocupación.
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <br />
+      <br />
+    </div>
+    <!--/#productos-->
 
     <div class="ag-format-container" id="dinamics-moduls">
-        <div class="section-header">
-            <h2 class="section-title wow fadeInDown">Módulos dinámicos</h2>
+      <div class="section-header">
+        <h2 class="section-title wow fadeInDown">Módulos dinámicos</h2>
+      </div>
+      <div class="ag-courses_box">
+        <div class="ag-courses_item">
+          <a href="modulo1_gestion.html#gestion" class="ag-courses-item_link">
+            <div class="ag-courses-item_bg"></div>
+
+            <div class="ag-courses-item_title">
+              Gestión de Producción y Automatización
+            </div>
+
+            <div class="ag-courses-item_date-box">
+              Profesor:
+              <span class="ag-courses-item_date"> Ubaldo García </span>
+            </div>
+          </a>
         </div>
-        <div class="ag-courses_box">
-            <div class="ag-courses_item">
-                <a href="modulo1_gestion.html#gestion" class="ag-courses-item_link">
-                    <div class="ag-courses-item_bg"></div>
 
-                    <div class="ag-courses-item_title">
-                        Gestión de Producción y Automatización
-                    </div>
-        
-                    <div class="ag-courses-item_date-box">
-                        Profesor:
-                        <span class="ag-courses-item_date">
-                            Ubaldo García
-                        </span>
-                    </div>
-                </a>
-            </div>
-    
-            <div class="ag-courses_item">
-                <a href="modulo2_industria.html#industria" class="ag-courses-item_link">
-                    <div class="ag-courses-item_bg"></div>
-        
-                    <div class="ag-courses-item_title">
-                        Industria 4.0 en la Automatización
-                    </div>
-        
-                    <div class="ag-courses-item_date-box">
-                        Profesor:
-                        <span class="ag-courses-item_date">
-                            Eduardo Barrera
-                        </span>
-                    </div>
-                </a>
-            </div>
-    
-            <div class="ag-courses_item">
-                <a href="modulo3_planeacion.html#planeacion" class="ag-courses-item_link">
-                    <div class="ag-courses-item_bg"></div>
-        
-                    <div class="ag-courses-item_title">
-                        Planeación del Proyecto
-                    </div>
-        
-                    <div class="ag-courses-item_date-box">
-                        Profesor:
-                        <span class="ag-courses-item_date">
-                            Luis Méndez y Ubaldo García
-                        </span>
-                    </div>
-                </a>
-            </div>
-    
-            <div class="ag-courses_item">
-                <a href="modulo4_evaluacion.html#evaluacion" class="ag-courses-item_link">
-                <div class="ag-courses-item_bg"></div>
-        
-                <div class="ag-courses-item_title">
-                    Evaluación Económica de Proyectos
-                </div>
-        
-                <div class="ag-courses-item_date-box">
-                    Profesor:
-                    <span class="ag-courses-item_date">
-                        Luis Méndez y Ubaldo García
-                    </span>
-                </div>
-                </a>
-            </div>
-    
-            <div class="ag-courses_item">
-                <a href="modulo5_celda.html#celda" class="ag-courses-item_link">
-                <div class="ag-courses-item_bg"></div>
-        
-                <div class="ag-courses-item_title">
-                    Celda de Manufactura Robotizada
-                </div>
-        
-                <div class="ag-courses-item_date-box">
-                    Profesor:
-                    <span class="ag-courses-item_date">
-                        Pedro Cárdenas
-                    </span>
-                </div>
-                </a>
-            </div>
-    
-            <div class="ag-courses_item">
-                <a href="modulo6_digital.html#digital" class="ag-courses-item_link">
-                <div class="ag-courses-item_bg"></div>
-        
-                <div class="ag-courses-item_title">
-                    Digital Factory
-                </div>
+        <div class="ag-courses_item">
+          <a
+            href="modulo2_industria.html#industria"
+            class="ag-courses-item_link"
+          >
+            <div class="ag-courses-item_bg"></div>
 
-                <div class="ag-courses-item_date-box">
-                    Profesor:
-                    <span class="ag-courses-item_date">
-                        Ubaldo García
-                    </span>
-                </div>
-                </a>
-            </div>
-    
-            <div class="ag-courses_item">
-                <a href="modulo7_controladores.html#controladores" class="ag-courses-item_link">
-                <div class="ag-courses-item_bg"></div>
-                <div class="ag-courses-item_title">
-                    Controladores Industriales (PLC)
-                </div>
-
-                <div class="ag-courses-item_date-box">
-                    Profesor:
-                    <span class="ag-courses-item_date">
-                        Victor Grisales
-                    </span>
-                </div>
-                </a>
-            </div>
-    
-            <div class="ag-courses_item">
-                <a href="modulo8_comunicaciones.html#comunicaciones" class="ag-courses-item_link">
-                <div class="ag-courses-item_bg"></div>
-        
-                <div class="ag-courses-item_title">
-                    Comunicaciones
-                </div>
-        
-                <div class="ag-courses-item_date-box">
-                    Profesor:
-                    <span class="ag-courses-item_date">
-                    Ricardo Ramírez
-                    </span>
-                </div>
-                </a>
+            <div class="ag-courses-item_title">
+              Industria 4.0 en la Automatización
             </div>
 
-            <div class="ag-courses_item">
-                <a href="modulo9_scada.html#scada" class="ag-courses-item_link">
-                <div class="ag-courses-item_bg"></div>
-        
-                <div class="ag-courses-item_title">
-                    SCADA
-                </div>
-        
-                <div class="ag-courses-item_date-box">
-                    Profesor:
-                    <span class="ag-courses-item_date">
-                        Victor Grisales y Eduardo Barrera
-                    </span>
-                </div>
-                </a>
+            <div class="ag-courses-item_date-box">
+              Profesor:
+              <span class="ag-courses-item_date"> Eduardo Barrera </span>
             </div>
+          </a>
         </div>
-      </div> <!--Módulos dinámicos-->
+
+        <div class="ag-courses_item">
+          <a
+            href="modulo3_planeacion.html#planeacion"
+            class="ag-courses-item_link"
+          >
+            <div class="ag-courses-item_bg"></div>
+
+            <div class="ag-courses-item_title">Planeación del Proyecto</div>
+
+            <div class="ag-courses-item_date-box">
+              Profesor:
+              <span class="ag-courses-item_date">
+                Luis Méndez y Ubaldo García
+              </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="ag-courses_item">
+          <a
+            href="modulo4_evaluacion.html#evaluacion"
+            class="ag-courses-item_link"
+          >
+            <div class="ag-courses-item_bg"></div>
+
+            <div class="ag-courses-item_title">
+              Evaluación Económica de Proyectos
+            </div>
+
+            <div class="ag-courses-item_date-box">
+              Profesor:
+              <span class="ag-courses-item_date">
+                Luis Méndez y Ubaldo García
+              </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="ag-courses_item">
+          <a href="modulo5_celda.html#celda" class="ag-courses-item_link">
+            <div class="ag-courses-item_bg"></div>
+
+            <div class="ag-courses-item_title">
+              Celda de Manufactura Robotizada
+            </div>
+
+            <div class="ag-courses-item_date-box">
+              Profesor:
+              <span class="ag-courses-item_date"> Pedro Cárdenas </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="ag-courses_item">
+          <a href="modulo6_digital.html#digital" class="ag-courses-item_link">
+            <div class="ag-courses-item_bg"></div>
+
+            <div class="ag-courses-item_title">Digital Factory</div>
+
+            <div class="ag-courses-item_date-box">
+              Profesor:
+              <span class="ag-courses-item_date"> Ubaldo García </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="ag-courses_item">
+          <a
+            href="modulo7_controladores.html#controladores"
+            class="ag-courses-item_link"
+          >
+            <div class="ag-courses-item_bg"></div>
+            <div class="ag-courses-item_title">
+              Controladores Industriales (PLC)
+            </div>
+
+            <div class="ag-courses-item_date-box">
+              Profesor:
+              <span class="ag-courses-item_date"> Victor Grisales </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="ag-courses_item">
+          <a
+            href="modulo8_comunicaciones.html#comunicaciones"
+            class="ag-courses-item_link"
+          >
+            <div class="ag-courses-item_bg"></div>
+
+            <div class="ag-courses-item_title">Comunicaciones</div>
+
+            <div class="ag-courses-item_date-box">
+              Profesor:
+              <span class="ag-courses-item_date"> Ricardo Ramírez </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="ag-courses_item">
+          <a href="modulo9_scada.html#scada" class="ag-courses-item_link">
+            <div class="ag-courses-item_bg"></div>
+
+            <div class="ag-courses-item_title">SCADA</div>
+
+            <div class="ag-courses-item_date-box">
+              Profesor:
+              <span class="ag-courses-item_date">
+                Victor Grisales y Eduardo Barrera
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--Módulos dinámicos-->
 
     <section id="avance1">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Primer Avance</h2>
-                <p class="wow fadeInDown">En la siguiente página se podrá ver el primer avance del proyecto realizado</p> 
-            </div>
-            
-            <div class="text-center">
-                <a class="button" href="avance1.html#avance1">
-                    Ir al Avance 1
-                </a>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Primer Avance</h2>
+          <p class="wow fadeInDown">
+            En la siguiente página se podrá ver el primer avance del proyecto
+            realizado
+          </p>
         </div>
+
+        <div class="text-center">
+          <a class="button" href="avance1.html#avance1"> Ir al Avance 1 </a>
+        </div>
+      </div>
     </section>
 
     <section id="our-team">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title wow fadeInDown">Nuestro equipo</h2>
-                    <p class="wow fadeInDown">Nuestro equipo de desarrollo está conformado por:.</p> 
-                </div>
-                
-                <div class="row text-center">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/team/01_1.jpg" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Nikolai Alexander Cáceres Penagos</h3>
-                                <span>Estudiante de Ingeniería Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/team/02_2.jpg" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Javier Eduardo Gutierrez Serrano</h3>
-                                <span>Estudiante de Ingeniería Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="https://www.linkedin.com/in/javiergutierrez-ingmec/"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/team/03_1.jpg" width="260" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Jose Alejandro Peñaranda Chia</h3>
-                                <span>Estudiante de Ingeniería Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="https://github.com/Jpenarandac" target="_blank"><i class="fa fa-github"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/jose-penaranda-699823234/"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/team/04_1.jpg" width="260" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Wilder Ofrey Bello Herrera</h3>
-                                <span>Estudiante de Ingeniería Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="https://github.com/WilderBello" target="_blank"><i class="fa fa-github"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/wilderbello/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-    
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Nuestro equipo</h2>
+          <p class="wow fadeInDown">
+            Nuestro equipo de desarrollo está conformado por:.
+          </p>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="0ms"
+            >
+              <div class="team-img">
+                <img class="img-responsive" src="images/team/01_1.jpg" alt="" />
+              </div>
+              <div class="team-info">
+                <h3>Nikolai Alexander Cáceres Penagos</h3>
+                <span>Estudiante de Ingeniería Mecatrónica</span>
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
             </div>
-        </section><!--/#our-team-->
-
-        <section id="our-team" class="">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title wow fadeInDown">Nuestros Profesores</h2>
-                    <p class="wow fadeInDown">A continuación presentamos el equipo de Profesores que nos guiaron durante el semestre:</p> 
-                </div>
-
-                <div class="row-cols-4">
-                    <div class="col-md-3 text-center">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/profesores/Victor.jpg" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Victor Hugo Grisales</h3>
-                                <span>Profesor Departamento de Ingeniería Mecánica y Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="linkedin.com/in/vhgrisalesp/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="mailto:vhgrisalesp@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/profesores/Pedro_Cardenas.jfif" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Pedro Fabian Cárdenas</h3>
-                                <span>Profesor Departamento de Ingeniería Mecánica y Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="https://www.linkedin.com/in/pedro-fabian-cardenas-herrera-72397037/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="mailto:pfcardenash@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3  text-center">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/profesores/Ricardo.png" width="260" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Ricardo Emiro Ramirez</h3>
-                                <span>Profesor Departamento de Ingeniería Mecánica y Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="mailto:reramirezh@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div class="row-cols-6 text-center">
-                    <div class="col-md-3">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/profesores/Ubaldo.jfif" width="260" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Ubaldo García Zaragoza</h3>
-                                <span>Profesor Departamento de Ingeniería Mecánica y Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="https://www.linkedin.com/in/ubaldo-garcia-zaragoza-ab681727/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="mailto:ugarciaz@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/profesores/Barrera.jfif" width="260" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Eduardo Barrera Gualdron</h3>
-                                <span>Profesor Departamento de Ingeniería Mecánica y Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="https://www.linkedin.com/in/ebarrerag/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="mailto:ebarrerag@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                            <div class="team-img">
-                                <img class="img-responsive" src="images/profesores/Mendez.jpg" width="260" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3>Luis Miguel Mendez</h3>
-                                <span>Profesor Departamento de Ingeniería Mecánica y Mecatrónica</span> 
-                            </div> 
-                            <ul class="social-icons">
-                                <li><a href="mailto:lmmendezm@unal.edu.co" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-    
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="100ms"
+            >
+              <div class="team-img">
+                <img class="img-responsive" src="images/team/02_2.jpg" alt="" />
+              </div>
+              <div class="team-info">
+                <h3>Javier Eduardo Gutierrez Serrano</h3>
+                <span>Estudiante de Ingeniería Mecatrónica</span>
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://www.linkedin.com/in/javiergutierrez-ingmec/"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-        </section><!--/#our-team-->
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="200ms"
+            >
+              <div class="team-img">
+                <img
+                  class="img-responsive"
+                  src="images/team/03_1.jpg"
+                  width="260"
+                  alt=""
+                />
+              </div>
+              <div class="team-info">
+                <h3>Jose Alejandro Peñaranda Chia</h3>
+                <span>Estudiante de Ingeniería Mecatrónica</span>
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://github.com/Jpenarandac" target="_blank"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/jose-penaranda-699823234/"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="300ms"
+            >
+              <div class="team-img">
+                <img
+                  class="img-responsive"
+                  src="images/team/04_1.jpg"
+                  width="260"
+                  alt=""
+                />
+              </div>
+              <div class="team-info">
+                <h3>Wilder Ofrey Bello Herrera</h3>
+                <span>Estudiante de Ingeniería Mecatrónica</span>
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://github.com/WilderBello" target="_blank"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/wilderbello/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#our-team-->
 
-<!--/#bottom-->
+    <section id="our-team" class="">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Nuestros Profesores</h2>
+          <p class="wow fadeInDown">
+            A continuación presentamos el equipo de Profesores que nos guiaron
+            durante el semestre:
+          </p>
+        </div>
+
+        <div class="row-cols-4">
+          <div class="col-md-3 text-center">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="0ms"
+            >
+              <div class="team-img">
+                <img
+                  class="img-responsive"
+                  src="images/profesores/Victor.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="team-info">
+                <h3>Victor Hugo Grisales</h3>
+                <span
+                  >Profesor Departamento de Ingeniería Mecánica y
+                  Mecatrónica</span
+                >
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a href="linkedin.com/in/vhgrisalesp/"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="mailto:vhgrisalesp@unal.edu.co" target="_blank"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="100ms"
+            >
+              <div class="team-img">
+                <img
+                  class="img-responsive"
+                  src="images/profesores/Pedro_Cardenas.jfif"
+                  alt=""
+                />
+              </div>
+              <div class="team-info">
+                <h3>Pedro Fabian Cárdenas</h3>
+                <span
+                  >Profesor Departamento de Ingeniería Mecánica y
+                  Mecatrónica</span
+                >
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/pedro-fabian-cardenas-herrera-72397037/"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="mailto:pfcardenash@unal.edu.co" target="_blank"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="200ms"
+            >
+              <div class="team-img">
+                <img
+                  class="img-responsive"
+                  src="images/profesores/Ricardo.png"
+                  width="260"
+                  alt=""
+                />
+              </div>
+              <div class="team-info">
+                <h3>Ricardo Emiro Ramirez</h3>
+                <span
+                  >Profesor Departamento de Ingeniería Mecánica y
+                  Mecatrónica</span
+                >
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a href="mailto:reramirezh@unal.edu.co" target="_blank"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-cols-6 text-center">
+          <div class="col-md-3">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="300ms"
+            >
+              <div class="team-img">
+                <img
+                  class="img-responsive"
+                  src="images/profesores/Ubaldo.jfif"
+                  width="260"
+                  alt=""
+                />
+              </div>
+              <div class="team-info">
+                <h3>Ubaldo García Zaragoza</h3>
+                <span
+                  >Profesor Departamento de Ingeniería Mecánica y
+                  Mecatrónica</span
+                >
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/ubaldo-garcia-zaragoza-ab681727/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="mailto:ugarciaz@unal.edu.co" target="_blank"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="300ms"
+            >
+              <div class="team-img">
+                <img
+                  class="img-responsive"
+                  src="images/profesores/Barrera.jfif"
+                  width="260"
+                  alt=""
+                />
+              </div>
+              <div class="team-info">
+                <h3>Eduardo Barrera Gualdron</h3>
+                <span
+                  >Profesor Departamento de Ingeniería Mecánica y
+                  Mecatrónica</span
+                >
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/ebarrerag/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="mailto:ebarrerag@unal.edu.co" target="_blank"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="300ms"
+            >
+              <div class="team-img">
+                <img
+                  class="img-responsive"
+                  src="images/profesores/Mendez.jpg"
+                  width="260"
+                  alt=""
+                />
+              </div>
+              <div class="team-info">
+                <h3>Luis Miguel Mendez</h3>
+                <span
+                  >Profesor Departamento de Ingeniería Mecánica y
+                  Mecatrónica</span
+                >
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a href="mailto:lmmendezm@unal.edu.co" target="_blank"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#our-team-->
+
+    <!--/#bottom-->
 
     <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2015 Company Name. Template by <a target="_blank" href="http://webthemez.com/" title="Free Bootstrap Themes and HTML Templates">WebThemez.com</a>
-                </div>
-                <div class="col-sm-6">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            &copy; 2015 Company Name. Template by
+            <a
+              target="_blank"
+              href="http://webthemez.com/"
+              title="Free Bootstrap Themes and HTML Templates"
+              >WebThemez.com</a
+            >
+          </div>
+          <div class="col-sm-6">
+            <ul class="social-icons">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-github"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </footer><!--/#footer-->
+      </div>
+    </footer>
+    <!--/#footer-->
 
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/mousescroll.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
@@ -555,5 +814,5 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/custom-scripts.js"></script>
-</body>
+  </body>
 </html>
