@@ -634,7 +634,6 @@ ul.nostyle i {
 #modulos,
 #gestion,
 #industria,
-#planeacion,
 #evaluacion,
 #celda,
 #digital,
@@ -788,8 +787,7 @@ ul.nostyle i {
   border-top-color: #eee;
 }
 #business-stats,
-#parametros,
-#planeacion {
+#parametros {
   padding: 100px 0 70px;
   background: #ffffff;
   background-size: cover;
@@ -799,8 +797,7 @@ ul.nostyle i {
   margin: 0 auto;
 }
 #business-stats p,
-#parametros p,
-#planeacion p {
+#parametros p {
   padding: 100px 0 70px;
   background: #ffffff;
   background-size: cover;
@@ -824,7 +821,7 @@ ul.nostyle i {
 }
 #business-stats strong,
 #parametros strong,
-#planeacion strong {
+#gestion strong {
   display: block;
   margin-bottom: 30px;
 }
