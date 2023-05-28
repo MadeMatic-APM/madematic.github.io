@@ -1216,14 +1216,14 @@ table {
 }
 
 .linea {
-  border-top: 2px solid black;
+  border-top: 2px solid var(--amarillo);
   height: 2px;
   max-width: 200px;
   padding: 0;
   margin: 10px auto 20px auto;
 }
 
-#industria img,
+#gestion img,
 iframe {
   margin: 0 auto;
 }
