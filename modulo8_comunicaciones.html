@@ -117,15 +117,35 @@
                 <div class="linea"></div>
             </div>
 
-            <p class="text-center">
-
-            </p>
-
             <img
               class="img-responsive scale-in-top"
               src="Documents/8. Comunicaciones/Slide1.png"
               alt=""
             />
+
+            <br>
+
+            <p class="text-center">
+                El anterior diagrama de comunicaciones muestra en el nivel de campo un protocolo de comunicación 
+                PROFIBUS DP, la cual se implementa en una topología de estrella, donde cada sensor y actuador está 
+                conectado individualmente al controlador central o maestro 1, el PLC CompactLogix 5380 Controller 
+                con MVI69-PDPS PROSOFT TECHNOLOGY. La conexión se realiza a a través de un cable PROFIBUS RS-485.  
+                En el nivel de control se usa el protocolo profibus FMS para la comunicación entre el PLC y los 
+                controladores tanto del robot de la celda de manufactura como de la CNC. Sucesivamente, como puente 
+                entre la red profibus y la red ethernet usada en el nivel supervisorio se utiliza el convertidor 
+                EtherNet/IP HD67594. El maestro tipo 2 es una pantalla HMI Allen Bradley 2711P-B10C22D9P-B la cual 
+                permitirá la interacción entre el usuario y los procesos de una manera cómoda y amigable, una interfaz 
+                hombre máquina encargada de transmitir las ordenes del usuario a los controladores y de permitir la 
+                observación de las variables del proceso graficamente. Finalmente en las capas sucesivas se usa una 
+                conexión ethernet que permitirá la conexión entre servidores, bases de datos y computadores 
+                corporativos. Vale la pena aclarar que se tiene una conexión a la nube del proceso. 
+            </p>
+
+            <p class="text-center">
+                Cabe resaltar que es importante configurar adecuadamente las direcciones de los dispositivos 
+                esclavos y los parámetros de comunicación en el controlador maestro para garantizar una comunicación 
+                adecuada en la red PROFIBUS DP y FMS.
+            </p>
 
         </div>
     </section>
