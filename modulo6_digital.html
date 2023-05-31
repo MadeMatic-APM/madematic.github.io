@@ -143,6 +143,43 @@
                     <img class="img-responsive scale-in-top" src="images/Comisionamiento/Captura5.PNG" alt="Simulación de planta">
                 </div>
             </div>
+            <h3 class="text-center">Empacadora</h3>
+
+            <p class="text-center">Se decidió realizar el empacado de las piezas mediante un sistema neumático, el cual a partir del estado 
+                actual de las piezas en cada una de las cajas se realizará el llenado con el objetivo de separar las partes que componen un 
+                producto, este proceso es controlado mediante programación en Ladder con Studio 5000, en el cual se usaron variables de tipo 
+                contadores para modificar y consultar el estado de cada una de las piezas en las cajas. Se puede observar en el video que las piezas 
+                son generadas en la celda robótica y posteriormente son transportadas hasta el sistema de empacado, se observa que cuando una pieza está 
+                ausente en alguna de las cajas el sistema procederá a empujarla, por otro lado, sí la totalidad de la pieza respectiva, ya se encuentra 
+                en la caja se dejará pasar y se repetirá el proceso en la siguiente caja. En el momento que se completen las 3 cajas correspondientes a 
+                un lado de la empacadora se activara la banda transportadora y aparecerán nuevas cajas.
+            </p>
+
+            <iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/v_KhBNT02SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h3 class="text-center">Distribuidora</h3>
+
+            <p class="text-center">En esta etapa se distribuyen las piezas de forma equitativa entre los puestos de trabajo (Rebordeadoras), 
+                para esto se programaron en Studio 5000 contadores y bloques de comparación, con el objetivo de activar actuadores neumáticos para 
+                direccionar las piezas hacia las diferentes bandas. Se puede observar que las piezas provienen de la CNC y se movilizan usando bandas transportadoras, 
+                también se puede observar cómo en caso de que sea necesario el proceso de taladrado las piezas se direccionaran hacia el taladrado, ya que las piezas que 
+                conforman el comedera no necesitan taladrado ninguna de estas se direccionó a esta etapa, sin embargo, otros lotes de manufactura (Repisa y Organizador), 
+                tienen piezas que requieren el proceso de taladrado.
+                Se observa que se instalaron sumideros al final de cada una de las bandas, para disminuir la carga computacional del simulador.
+            </p>
+
+            <h3 class="text-center">Digital Twin NX</h3>
+
+            <p class="text-center">En el vídeo se puede observar el funcionamiento general de la planta, en este se tiene una visión general de la distribución de la planta 
+                y de las diferentes etapas que componen el proceso de fabricación por lotes, en etapas se incluye la etapa de corte y fresado con CNC, posteriormente se observa
+                la etapa de taladrado y el sistema de distribución de trabajo hacia la rebordeadoras, después de realizar el proceso de rebordeado  las piezas se desplazan mediante 
+                bandas hasta la celda robótica para realizar el proceso de pintado o sellado, posteriormente se desplazan las piezas por medio de bandas transportadoras hasta la 
+                empacadora y por último, una vez llenadas las cajas estas se desplazan hasta el punto de recogida para paletizado.  Es importante resaltar que todos los actores 
+                presentes en nuestra planta son de tipo neumático para los sistemas de distribución y empuje entre las diferentes etapas, y eléctrico para activar o desactivar 
+                motores de las bandas transportadoras. En el vídeo se simula la fabricación de un lote de comederos, en este se observa el desplazamiento de las piezas 
+                entre las diferentes etapas y el accionar de un cada uno de los actuadores neumáticos, debido a la carga computacional del software, el escalamiento del 
+                tiempo real es de aproximadamente 0.1 segundos, lo que significa que el tiempo NX transcurre 10 veces más lento que en la vida real.                
+            </p>
         </div>
 
         </div>
