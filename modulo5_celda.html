@@ -1,404 +1,863 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="webthemez">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="webthemez" />
     <title>MadeMatic</title>
-	<!-- core CSS 
+    <!-- core CSS 
         <link rel="stylesheet" href="css/style1.css">
     -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/solid.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet"> 
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/solid.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <script src="js/wow.min.js"></script>
     <script>
-        new WOW().init();
+      new WOW().init();
     </script>
     <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>    
-    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
-</head> 
+    <script src="js/respond.min.js"></script>
+    <link rel="shortcut icon" href="images/ico/favicon.ico" />
+  </head>
 
-<body id="home">
+  <body id="home">
     <header id="header">
-        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logos/Logo07-1.png" width="70" alt="logo"></a>
-                </div>
-				
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="index.html">Inicio</a></li>   
-                        <li class="scroll"><a href="index.html#productos">Productos</a></li>
-                        
-                        <div class="dropdown navbar-nav ">
-                            <button onclick="myFunction()" class="dropbtn scroll">Módulos</button>
-                            <div id="myDropdown" class="dropdown-content">
-                              <a href="modulo1_gestion.html#gestion">Gestión de Producción y Automatización</a>
-                              <a href="modulo2_industria.html#industria">Industria 4.0 en la Automatización</a>
-                              <a href="modulo3_planeacion.html#planeacion">Planeación del Proyecto</a>
-                              <a href="modulo4_evaluacion.html#evaluacion">Evaluación Económica de Proyectos</a>
-                              <a href="modulo5_celda.html#celda">Celda de Manufactura Robotizada</a>
-                              <a href="modulo6_digital.html#digital">Digital Factory</a>
-                              <a href="modulo7_controladores.html#controladores">Controladores Industriales (PLC)</a>
-                              <a href="modulo8_comunicaciones.html#comunicaciones">Comunicaciones</a>
-                              <a href="modulo9_scada.html#scada">SCADA</a>
-                            </div>
-                        </div>
+      <nav
+        id="main-nav"
+        class="navbar navbar-default navbar-fixed-top"
+        role="banner"
+      >
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"
+              ><img src="images/logos/Logo07-1.png" width="70" alt="logo"
+            /></a>
+          </div>
 
-                        <script>
-                            /* When the user clicks on the button,
+          <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="scroll active"><a href="index.html">Inicio</a></li>
+              <li class="scroll">
+                <a href="index.html#productos">Productos</a>
+              </li>
+
+              <div class="dropdown navbar-nav">
+                <button onclick="myFunction()" class="dropbtn scroll">
+                  Módulos
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="modulo1_gestion.html#gestion"
+                    >Gestión de Producción y Automatización</a
+                  >
+                  <a href="modulo2_industria.html#industria"
+                    >Industria 4.0 en la Automatización</a
+                  >
+                  <a href="modulo3_planeacion.html#planeacion"
+                    >Planeación del Proyecto</a
+                  >
+                  <a href="modulo4_evaluacion.html#evaluacion"
+                    >Evaluación Económica de Proyectos</a
+                  >
+                  <a href="modulo5_celda.html#celda"
+                    >Celda de Manufactura Robotizada</a
+                  >
+                  <a href="modulo6_digital.html#digital">Digital Factory</a>
+                  <a href="modulo7_controladores.html#controladores"
+                    >Controladores Industriales (PLC)</a
+                  >
+                  <a href="modulo8_comunicaciones.html#comunicaciones"
+                    >Comunicaciones</a
+                  >
+                  <a href="modulo9_scada.html#scada">SCADA</a>
+                </div>
+              </div>
+
+              <script>
+                /* When the user clicks on the button,
                             toggle between hiding and showing the dropdown content */
-                            function myFunction() {
-                            document.getElementById("myDropdown").classList.toggle("show");
-                            }
+                function myFunction() {
+                  document
+                    .getElementById("myDropdown")
+                    .classList.toggle("show");
+                }
 
-                            // Close the dropdown menu if the user clicks outside of it
-                            window.onclick = function(event) {
-                            if (!event.target.matches('.dropbtn')) {
-                                var dropdowns = document.getElementsByClassName("dropdown-content");
-                                var i;
-                                for (i = 0; i < dropdowns.length; i++) {
-                                var openDropdown = dropdowns[i];
-                                if (openDropdown.classList.contains('show')) {
-                                    openDropdown.classList.remove('show');
-                                }
-                                }
-                            }
-                            }
-                        </script>
+                // Close the dropdown menu if the user clicks outside of it
+                window.onclick = function (event) {
+                  if (!event.target.matches(".dropbtn")) {
+                    var dropdowns =
+                      document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains("show")) {
+                        openDropdown.classList.remove("show");
+                      }
+                    }
+                  }
+                };
+              </script>
 
-                        <li class="scroll"><a href="avance1.html">Primer Avance</a></li>
-                        <li class="scroll"><a href="index.html#our-team">Equipo</a></li>                       
-                    </ul>
-                    <a class="navbar-brand" href="index.html#home"><img src="images/logo_unal.png" width="140" alt="logo"></a>
-                </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
-    </header><!--/header-->
+              <li class="scroll"><a href="avance1.html">Primer Avance</a></li>
+              <li class="scroll"><a href="index.html#our-team">Equipo</a></li>
+            </ul>
+            <a class="navbar-brand" href="index.html#home"
+              ><img src="images/logo_unal.png" width="140" alt="logo"
+            /></a>
+          </div>
+        </div>
+        <!--/.container-->
+      </nav>
+      <!--/nav-->
+    </header>
+    <!--/header-->
 
     <section id="hero-banner">
-             <div class="banner-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    </section><!--/#main-slider-->
-
+      <div class="banner-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#main-slider-->
 
     <section id="celda">
+      <div class="section-header">
+        <h2 class="section-title wow fadeInDown">
+          Celda de Manufactura Robotizada
+        </h2>
+      </div>
+
+      <p class="text-center">
+        Diseño de la estación del proceso de pintura a partir de una celda
+        robotizada, desarrollo y seguridad.
+      </p>
+
+      <div class="container">
         <div class="section-header">
-            <h2 class="section-title wow fadeInDown">Celda de Manufactura Robotizada</h2>
+          <h2 class="text-center wow fadeInDown">Hoja de ruta</h2>
+          <div class="linea"></div>
+
+          <p class="text-center">
+            Para la concepción de la estación de pintura robotizada se
+            implementa una ruta de diseño de celdas robotizadas realizada por el
+            equipo de diseño de MadeMatic con énfasis en una planta de
+            producción. La Hoja de ruta empleada se basa en la implementación de
+            cada uno de los siguientes pasos:
+          </p>
+        </div>
+
+        <div style="width: 100%">
+          <div
+            style="
+              position: relative;
+              padding-bottom: 56.25%;
+              padding-top: 0;
+              height: 0;
+            "
+          >
+            <iframe
+              title="TIMELINE GENIAL"
+              frameborder="0"
+              width="1200"
+              height="675"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              src="https://view.genial.ly/6432e76d0afac20013902854"
+              type="text/html"
+              allowscriptaccess="always"
+              allowfullscreen="true"
+              scrolling="yes"
+              allownetworking="all"
+            ></iframe>
+          </div>
+        </div>
+
+        <br />
+
+        <p class="text-center">
+          Teniendo en cuenta los puntos definidos de la hoja de ruta de diseño
+          de celdas de manufactura robotizadas, se tiene el siguiente flujo de
+          decisión de la hoja de ruta.
+        </p>
+
+        <img
+          class="img-responsive scale-in-top"
+          src="images/Celda Robótica/Diagrama de Flujo - Hoja de Ruta.png"
+          alt="Simulación de planta"
+        />
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">ANALISIS Y PROCESO</h2>
+          <div class="linea"></div>
+        </div>
+
+        <p class="text-justify">
+          Diseñar e implementar una celda de manufactura robotizada en un
+          ambiente virtual, para la operación del proceso de pintura de una
+          planta de fabricación de artículos en madera. Para este desarrollo se
+          tienen los siguientes requerimientos:
+        </p>
+
+        <ol type="A">
+          <li>La celda debe producir 3 productos distintos</li>
+          <li>La celda debe ser segura para los operarios de la fabrica</li>
+          <li>
+            La celda debe permitir un fácil acceso para las tareas de
+            mantenimiento
+          </li>
+          <li>
+            La celda debe cumplir los requerimientos de seguridad del proceso de
+            pintura
+          </li>
+          <li>
+            La celda debe permitir el monitoreo visual para la operación de
+            pintura
+          </li>
+          <li>Se debe integrar el secado de la pieza dentro de la celda</li>
+          <li>El espacio de adecuación para la celda es de 6 m x 6m</li>
+        </ol>
+
+        <p class="text-justify">
+          La medida de desempeño que evaluara el proceso de diseño de celda de
+          manufactura robotiza para el proceso de pintura es el número de piezas
+          que puede procesar la celda de manufactura.
+        </p>
+
+        <h3 class="text-center">SELECCIÓN DE PROCESO</h3>
+
+        <p class="text-justify">
+          Con base en los tiempos de ciclo de cada uno de los procesos, se evidencia que los procesos de corte
+y pintura (sellado) son los que mayor tiempo conllevan en la operación del proceso de producción
+de la planta, por lo tanto, son los dos principales procesos factibles para la automatización
+robotizada de la planta.
+        </p>
+
+        <p class="text-justify">
+          Como se tiene que para el proceso de corte el tiempo de ciclo es de 12 minutos y para el proceso de
+sellado es de 18 minutos, no es decisorio que la elección del proceso a robotizar solo se base con
+este criterio, por lo tanto, tomando en cuenta un criterio más humanizado, es decir, observando los
+peligros para la salud humana a los cuales puedan estar presentes en la operación de estos procesos
+por parte de los operadores, se tiene que:
+        </p>
+
+        <ol>
+          <li>Proceso de corte:</li>
+          <ol type="a">
+            <li>Proyección de partículas y polvo</li>
+            <li>Rotura del disco</li>
+            <li>Cortes y amputaciones</li>
+            <li>Golpes por objetos</li>
+            <li>Ruido ambiental</li>
+          </ol>
+
+          <li>Proceso de sellado:</li>
+          <ol type="a">
+            <li>Presencia de líquidos y vapores inflamables</li>
+            <li>
+              Daños en órganos tras exposiciones prolongadas o repetitivas por
+              inhalación.
+            </li>
+            <li>Irritación ocular grave</li>
+            <li>Irritación cutánea</li>
+          </ol>
+        </ol>
+
+        <p class="text-justify">
+          Con base en estos dos criterios, se realiza la elección que el proceso de sellado es el más factible
+para el diseño de la celda de manufactura robotizada, dado que, ante los factores estudiados, es
+imprescindible favorecer la salud humana.
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/seleccion de proceso.jpg"
+          alt="Simulación de planta"
+        />
+        
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">DIAGRAMA DE FLUJO DEL PROCESO</h2>
+          <div class="linea"></div>
         </div>
 
         <p class="text-center">
-            Diseño de la estación de pintura y/o aplicación de sellado para madera a partir de
-            una celda robotizada, desarrollo de la celda y la seguridad a tener en cuenta dentro
-            de las normas de seguridad industrial vigentes en Colombia.
+          Dada la selección del proceso al cual se le realiza el diseño de la estación de manufactura robotizada,
+se procede a realizar la identificación del flujo de proceso a la actividad de pintura y sellado de la
+planta de estudio.
         </p>
 
-        <div class="container">
-            <div class="section-header">
-                <h2 class="text-center wow fadeInDown">Hoja de ruta</h2>
-                <div class="linea"></div>
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Flujo Proceso.png"
+          alt="Simulación de planta"
+        />
 
-                <p class="text-center">
-                    Para el desarrollo de la celda de manufactura robotizada se diseña e implementa
-                    una hoja de ruta de diseño de celdas robotizadas para una planta de producción. La
-                    hoja de ruta diseñada se basa en la implementación de cada uno de los siguientes
-                    pasos:
-                </p>
-            </div>
+        <p class="text-center">
+          Teniendo en cuenta este flujo de proceso, se identifica que actividades dentro del proceso
+intervienen el robot, para la cual se tiene que las actividades a realizar son:
+        </p>
 
-            <img class="img-responsive scale-in-top center-block" src="images/Celda Robótica/HojadeRuta.png" alt="">
+        <ol>
+          Proceso de corte:
+          <ol type="1">
+            <li>Proceso de pintura y/o sellado en la cara A de las piezas</li>
+            <li>Proceso de pintura y/o sellado en la cara B de las piezas</li>
+          </ol>
+        </ol>
 
+        <ol>
+          Además, se identifican las posibles herramientas necesarias para la realización del proceso:
+          <ol type="a">
+            <li>Matriz de pintura para las piezas</li>
+            <li>Controlador del Robot</li>
+            <li>Estación de pintura (compresor, pistola de pintar, conexiones)</li>
+            <li>Robot específico para pintar</li>
+            <li>Linea de transporte de matiz de pintura (banda(conveyor) o línea de transporte aereo
+              (overhead conveyor))</li>
+          </ol>
+        </ol>
+
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">IDENTIFICACION DE ALTERNATIVAS</h2>
+          <div class="linea"></div>
+        </div>
+
+        <p class="text-center">
+          De acuerdo con los requerimientos dados para el diseño de la celda de pintura robotizada, en
+especial del espacio proporcionado para el diseño de la celda y la integración de procesos entre la
+aplicación del proceso de pintura y el proceso de secado se obtiene la siguiente organización del
+espacio de la celda de manufactura.
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Dist_Espacio.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Esta disposición de la celda se estable de la forma de que las piezas sean transportadas de forma
+aérea con el fin de que el robot tenga el mayor alcance sobre las piezas con el fin de garantizar la
+mayor calidad en el cubrimiento del proceso a realizar.
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Vista_aerea.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Teniendo este análisis espacial e investigaciones de búsqueda de posibilidades para la selección del
+robot, con el fin de que llegue a las matrices de pintura que están llevando las piezas, el cual
+comprende de 1.6 metros, además de que puedan cumplir efectivamente el proceso, se tienen las
+siguientes alternativas de selección:
+        </p>
+
+        <ol type="a">
+          <li>ABB IRB 52: Capacidad máxima 6 kg, distancia máxima 1.45 metros (Especialista en pintar)</li>
+          <li>ABB IRB 1600: Capacidad máxima 6 kg, distancia máxima 1.45 metros (Ensamblaje,
+            soldadura, Embalaje, limpieza y pintura)</li>
+          <li>ABB IRB 2400: Capacidad máxima 10 kg, distancia máxima 1.55 metros (Soldadura por arco,
+            corte/desbarbado, esmerilado/pulido)</li>
+          <li>ABB IRB 2600: Capacidad máxima 12 kg, distancia máxima 1.65 metros (Ensamblaje,
+            soldadura, Embalaje, limpieza y pintura)</li>
+        </ol>
+
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">SOLUCION OPTIMA</h2>
+          <div class="linea"></div>
+        </div>
+
+        <p class="text-center">
+          Con base a las características de los posibles manipuladores preseleccionados y de los
+requerimientos de diseño, se realiza la selección del siguiente robot manipulador:
+        </p>
+
+        <ol type="a">
+          <li>ABB IRB 1600: Capacidad de carga 8 kg, distancia 1.45 metros</li>
+
+          <p>
+            Cuyas características se pueden encontrar en el siguiente <a href="https://library.e.abb.com/public/84f106492fd345f6b5072893a4630569/3HAC023604%20PS%20IRB%201600-es.pdf?x-sign=JLLKwcztPF4Sx0V/h1qOPiRMNzl8dOFVieP0O2bwvolqM6pu1q8Bl9lQcmSf1a1O" target="_blank">link</a>.
+          </p>
+
+          <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Area_trabajo.png"
+          alt="Simulación de planta"
+          />
+
+          <p class="text-center">
+            Espacio de trabajo
+          </p>
+
+          <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/irb1600.jpg"
+          alt="Simulación de planta"
+          />
+
+          <p class="text-center">
+            IRB 1600
+          </p>
+
+          <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/irc5.jpg"
+          alt="Simulación de planta"
+          />
+
+          <p class="text-center">
+            IRC5 – controlador
+          </p>
+
+          <p class="text-center">
+            Los demás elementos de hardware se enlistan a continuación:
+          </p>
+
+          <ol type="a">
+            <li>Controlador IRC5 de gabinete simple</li>
+            <li>Herramienta de pintura (Pistola de Pintar)</li>
+            <li>Sensores</li>
+            <li>Mesa de entrada de piezas</li>
+            <li>Mesa de Salida de piezas</li>
+            <li>Estación de manejo de aire y pintura de alimentación</li>
+            <li>Matriz de pintura</li>
+          </ol>
+
+          <p class="text-center">
+            Para la implementación de la celda de manufactura virtual de la solución planteada se emplea el
+software de RobotStudio.
+          </p>
+        </ol>
+
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">DISEÑO DE MATRICES DE PINTURA</h2>
+          <div class="linea"></div>
+        </div>
+
+        <p class="text-center">
+          A partir del diseño de los productos a fabricar en la planta, se realiza un despiece de las diferentes
+partes que se manufacturan para la consecución de cada uno de los productos, por lo tanto, para la
+entrada del proceso de pintura, es necesario realizar el diseño de las matrices de pintura
+configurables para cada una de las piezas, dado que son de diferentes dimensiones y formas.
+Después del análisis de las piezas de producción, se obtuvieron las siguientes matrices de pintura.
+        </p>
+
+        <p class="text-center">
+          Producto1-Pieza1
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Producto1-Pieza1.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Producto1-Pieza2
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Producto1-Pieza2.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Producto1-Pieza3
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Producto1-Pieza3.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Producto2-Pieza1
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Producto2-Pieza1.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Producto2-Pieza2
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Producto2-Pieza2.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Producto2-Pieza3
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Producto2-Pieza3.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Producto2-Pieza4
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Producto2-Pieza4.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Producto3-Pieza1
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Producto3-Pieza1.png"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          Producto3-Pieza2
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Información- Imágenes - Pagina web/Producto3-Pieza2.png"
+          alt="Simulación de planta"
+        />
+
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">SEGURIDAD</h2>
+          <div class="linea"></div>
+        </div>
+
+        <p class="text-center">
+          A partir de la solución dada para el proceso integrado de pintura y secado por medio de una celda
+robotizada, se realiza un análisis de seguridad en la celda con el fin de implementar herramientas
+que permitan que la celda sea segura para los operarios de la planta. A continuación, se muestra un
+resumen de los equipos de seguridad planteados para la implementación de la celda de manufactura
+robotizada con el fin de garantizar la seguridad de la planta y la integridad de los operarios.
+        </p>
+
+        <embed src="Documents/6. Celda/Informacion - Seguridad - Pagina Web/Análisis de riesgos celda Robótica Soldadura.pdf" type="application/pdf" width="100%" height="700px">
+
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">ESTANDARES DE SEGURIDAD</h2>
+          <div class="linea"></div>
+        </div>
+
+        <p class="text-center">
+          Para el aspecto de seguridad se tienen en cuenta un variado numero de normas de carácter nacional
+e internacional, las cuales pretenden preservar la salud ocupacional en el ambiente industrial.
+Específicamente para el diseño e implementación de celdas de manufactura robotizada se tienen en
+cuenta las siguientes normas internacionales:
+        </p>
+
+        <ol type="a">
+          <li>ISO 12100: Principios generales para el diseño; esta norma de tipo A cubre aspectos
+            generales que se deben aplicar para el diseño de toda maquinaria.</li>
+          <li>EN ISO 13851: Partes de sistemas de control relacionadas con seguridad; esta norma de
+            tipo B permite cubrir aspectos de seguridad o un tipo de protección que se puede usar en
+            una amplia gama de maquinaria.</li>
+          <li>EN ISO 10218: Robots y dispositivos robóticos; por medio de este estándar tipo C de
+            seguridad de máquinas, permite tratar de forma detallada los requisitos de seguridad para
+            una maquina o un grupo de máquinas en particular.</li>
+        </ol>
+
+        <p class="text-center">
+          De carácter particular para el análisis de seguridad de la celda de manufactura diseñada, se emplea
+la norma ISO 10218, la cual en su concepción esta dividida en dos partes:
+        </p>
+
+        <ol type="a">
+          <li>ISO 10218-1, la cual proporciona una guía para garantizar la seguridad en el diseño y la
+            construcción del robot, por lo tanto, es de mayor interés para los diferentes fabricantes de
+            los robots industriales.</li>
+          <li>ISO 10218-2, la cual proporciona pautas para la protección del personal durante la
+            integración, instalación, pruebas funcionales, programación, operación mantenimiento y
+            reparación del robot, por lo tanto, es de mayor interés para el personal de diseño de celdas
+            de manufactura robotizadas industriales.</li>
+        </ol>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Informacion - Seguridad - Pagina Web/seguridad.jpg"
+          alt="Simulación de planta"
+        />
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">ANALISIS DE SEGURIDAD CELDA DE MANUFACTURA DE PINTURA ROBOTIZADA</h2>
+          <div class="linea"></div>
+        </div>
+
+        <p class="text-center">
+          Teniendo en cuenta la norma ISO 10218-2, el proceso de análisis de seguridad busca eliminar
+peligros y la reducción de los riesgos mediante medidas de seguridad divide el proceso en tres
+partes:
+        </p>
+
+        <ol type="1">
+          <li>Análisis de Riesgos</li>
+          <li>Evaluación de Riesgos</li>
+          <li>Reducción de Riesgos</li>
+        </ol>
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">IDENTIFICACION DE LAS FUENTES DE RIESGOS</h2>
+          <div class="linea"></div>
+        </div>
+
+        <p class="text-center">
+          A partir de la propuesta de diseño se identificar las diferentes fuentes de riesgo de la celda de
+manufactura robotizada cuando esta se encuentra en las fases de operación, mantenimiento y
+transporte de material.
+        </p>
+
+        <ol>
+          <li>Modo de Operación Normal (Celda en producción)</li>
+          <ol type="1">
+            <li>(Rg1) Funcionamiento anormal de la celda: Los componentes móviles de la celda
+              de manufactura están fuera del correcto funcionamiento operacional de la celda, lo
+              cual puede generar daños físicos dentro de la celda, y causar lesiones al personal si
+              entra en interacción con esta.</li>
+            <li>(Rg2) Golpe del robot a los operarios: El manipulador puede llegar a causar lesiones
+              a algún operario debido a sus movimientos, si este se encuentra en la zona de
+              operación del robot.</li>
+            <li>(Rg3) Daño al sistema respiratorio de los operarios de la planta: La aspersión de
+              los líquidos de pintura y sellado generados por el proceso de pintura son altamente
+              tóxicos para la salud de los operarios debido a la inhalación, lo cual puede generar
+              daños a la salud respiratoria, es especial a los operarios que se encuentran en el
+              área integrada de pintura y secado durante la inserción y extracción de las matrices
+              de pintura.</li>
+            <li>(Rg4) Incendio de la Celda de manufactura: Dado que la celda trabaja con
+              componentes eléctricos y productos químicos inflamables, pueden generarse
+              chispas debido algún fallo en el proceso o de alguno de los componentes que
+              intervienen en este, lo cual pueden generar un incendio dentro de la celda.</li>
+            <li>(Rg5) Ingreso de personal no autorizado en la celda robótica: Cuando se
+              encuentran operarios no autorizados para estar dentro de la celda puede ser
+              lastimados por la operación del robot.</li>
+            <li>(Rg6) Fuga de partículas generados por el proceso: Debido a que el proceso de
+              pintura y sellado es un proceso que se realiza por aspersión, existe la posibilidad de
+              la fuga de partículas generadas por el proceso, las cuales son altamente toxicas
+              debido a la naturaleza de las sustancias.</li>
+            </ol>
+            <li>Modo Mantenimiento de la celda de manufactura</li>
             <ol>
-                <h3><li>Orientación del proyecto</li></h3>
-
-                <p class="text-justify">Se realiza un análisis preliminar de la planta de producción inicial en la cual
-                    se identifiquen detalladamente las especificaciones de los procesos de
-                    producción con el fin de:
-                </p>
-                <ol type="a">
-                    <li>Definir objetivos y alcance</li>
-                    <li>Establecer los requerimientos del cliente</li>
-                    <li>Identificar recursos económicos disponibles en los procesos</li>
-                    <li>Identificar los requerimientos de los procesos</li>
-                    <li>Definir los indicadores de desempeño en los procesos de producción</li>
-                </ol>
-
-                <h3><li>Análisis de proceso</li></h3>
-
-                <p>
-                    Se realiza la identificación general de la planta de producción inicial, con el objetivo de:
-                </p>
-
-                <ol type="a">
-                    <li>Identificar los objetivos de producción</li>
-                    <li>Identificar los recursos disponibles (Humanos, materiales y equipos)</li>
-                    <li>Identificar la complejidad de cada uno de los procesos operacionales de
-                        la producción</li>
-                    <li>Medir los indicadores de productividad actuales</li>
-                    <li>Identificar los pasos de las operaciones de la planta actuales</li>
-                </ol>
-
-                <h3><li>Optimización de producción</li></h3>
-
-                <p class="text-justify">
-                    Análisis de cada uno de los indicadores de productividad, los objetivos de
-                    producción con el fin de identificar los puntos a intervenir para posibles
-                    mejoras en los procesos de producción, teniendo en cuenta los tiempos deoperación y los tiempos de no generación de valor por medio de las
-                    simulaciones en software y los recursos disponibles. Para mejorar los
-                    procesos se debe considerar diferentes escenarios posibles para identificar
-                    las posibles falencias de la planta, las cuales se pueden intervenir en la
-                    optimización de los procesos.
-                </p>
-
-                <h3><li>Identificación de procesos</li></h3>
-
-                <p class="text-justify">
-                    Preselección de aquellos procesos que pueden ser candidatos para ser
-                    automatizados, teniendo en cuenta el flujo de material de trabajo, los
-                    procedimientos operativos y el análisis de desempeño de productividad de
-                    los procesos que se pueden optimizar. Nos permite obtener
-                </p>
-
-                <h3><li>Selección de proceso</li></h3>
-
-                <p class="text-justify">
-                    Se indica el proceso que se desea automatizar, seleccionando uno de los
-                    procesos presentes en la preselección realizada en la identificación de
-                    procesos, además de identificar claramente los indicadores de desempeño
-                    de producción de este proceso.
-                </p>
-
-                <h3><li>Diagrama de flujo del proceso</li></h3>
-
-                <p class="text-justify">
-                    Se realiza el diagrama de flujo del proceso seleccionado para el diseño de la
-                    celda de manufactura robotizado con el fin de identificar cada una de las
-                    operaciones internas que posee este proceso y asi poder realizar un
-                    diagrama de flujo optimo al cual llegar a partir de la robotización de la celda
-                    manufactura. Además, se debe realizar la correspondiente clasificación de
-                    las operaciones internas del proceso con el fin de categorizar el nivel de
-                    operación entre máquina, robot y operario, además de establecer las
-                    herramientas necesarias para la operación en la celda de manufactura.
-                </p>
-
-                <h3><li>Automatización de procesos</li></h3>
-
-                <p class="text-justify">
-                    Se replican las tareas operacionales del proceso seleccionado que pueden
-                    ser automatizables por medio de la categorización realizada en el diagrama
-                    del análisis del diagrama de flujo del proceso, para esto se deben tener en
-                    cuenta los objetivos del proceso, las metas de producción planteadas, los
-                    recursos disponibles y las consideraciones de seguridad y operación de la
-                    celda de manufactura.
-                </p>
-
-                <h3><li>Identificación de alternativas</li></h3>
-
-                <p class="text-justify">
-                    Se deben tener en cuenta la normatividad vigente para el diseño de celdas
-                    de manufactura, como también las guías vigente que definen la identificaciónde los riesgos y la seguridad en los puestos de trabajo tanto de regulación
-                    nacional como internacional, con esto se identifica el espacio requerido para
-                    cada tarea dentro de la celda de manufactura robotizada, a demás de
-                    establecer las restricciones dimensionales existentes para la celda, asi como
-                    de los requerimientos que se deben cumplir de acuerdo a la debida selección
-                    del manipuladora o manipuladores industriales necesarios para la celda,
-                    como lo es el espacio diestro que requieren los robots industriales
-                </p>
-
-                <h3><li>Solución óptima e implementación</li></h3>
-
-                <p class="text-justify">
-                    De acuerdo con las alternativas desarrolladas para la celda de manufactura
-                    a automatizar, se debe realizar una debida selección de la opción optima que
-                    permita mejorar el proceso seleccionado por medio del cumplimiento de los
-                    requerimientos establecidos para la operación a automatizar. Se debe
-                    realizar una adecuada evaluación individual de cada una de las alternativas
-                    por medio de estrategias de decisión, además de seleccionar debidamente
-                    los elementos de hardware y software que competen en la celda de
-                    manufactura para la implementación de esta.
-                </p>
-
-                <h3><li>Evaluación y validación de desempeño</li></h3>
-
-                <p class="text-justify">
-                    La implementación de la celda de manufactura se realiza por medio de la
-                    construcción de simulaciones que permiten el establecimiento del gemelo
-                    digital de la celda de manufactura mediante el uso de software. El uso de los
-                    recursos de simulación permite la evaluación y validación del desempeño de
-                    la celda de manufactura robotizada, con estas se registran los impactos
-                    generados por esta etapa de la planta dentro del proceso de producción,
-                    usando como criterio de comparación el estudio de la planta sin automatizar,
-                    además de los objetivos y metas planteados, asi como la evaluación de
-                    desempeño previa.
-                </p>
-
-                <h3><li>Seguridad</li></h3>
-
-                <p class="text-justify">
-                    La seguridad en los puestos de trabajo y en especial de una celda de
-                    manufactura robotizada es de estricto cumplimiento y revisión, ya que al tener
-                    un equipo de operación autónomo se tiene alto riesgo de accidentes si llegan
-                    a existir interacciones con operarios humanos, dado que al ser una máquina
-                    no es capaz de medir y evitar riesgos. Para esto se deben:
-                </p>
-
-                <ol type="a">
-                    <li>Identificar las fuentes de riesgos (peligros) en la solución de celda de
-                        manufactura definitiva.</li>
-                    <li>El nivel de riego admisible</li>
-                    <li>Mitigar y reducir los niveles de riesgo por medio de elementos de
-                        protección, prevención e información.</li>
-                    <li>Evaluar los riesgos finales.</li>
-                    <li>Iterar hasta minimizar lo mas posible los riesgos existentes.</li>
-                </ol>
-
-                <h3><li>Documentación del módulo</li></h3>
-
-                <p class="text-justify">
-                    El proceso de diseño de celdas de manufacturas robotizadas es un proceso
-                    que genera una serie de tareas que deben estar debidamente documentadas
-                    y plasmadas por escrito, debido a que existen diferentes tareas y
-                    evaluaciones que permiten compilar datos de la solución final planteada,
-                    además se debe registrar la evaluación de la seguridad y la funcionalidad de
-                    la celda en el entorno virtual de simulación.
-                </p>
-
+              <li>(Rg7) Movimientos del robot mientras se realizan operaciones de mantenimiento:
+                Los movimientos del robot durante el proceso de mantenimiento pueden ser de alto
+                riesgo debido a que pueden generar daños tanto al robot como a los operarios de
+                mantenimiento que se encuentren de la zona de trabajo de este, ya que el sistema
+                robótico no es capaz de identificar que hay personal dentro de la celda.</li>
             </ol>
-
-            Teniendo en cuenta los puntos definidos de la hoja de ruta de diseño de celdas de manufactura robotizadas, 
-            se tiene el siguiente flujo de decisión de la hoja de ruta.
-
-            <img class="img-responsive scale-in-top" src="images/Celda Robótica/Diagrama de Flujo - Hoja de Ruta.png" alt="Simulación de planta">
-
-        </div>
-
-        <div class="container">
-            <div class="section-header">
-                <h2 class="text-center wow fadeInDown">Análisis</h2>
-                <div class="linea"></div>
-            </div>
-
-            <h3 class="text-center">Orientación del Proyecto</h3>
-
-            <p class="text-justify">Diseñar e implementar una celda de manufactura robotizada en un ambiente
-                virtual, para la operación del proceso de pintura de una planta de fabricación de
-                artículos en madera. Para este desarrollo se tienen los siguientes requerimientos:
-            </p>
-
-            <ol type="a">
-                <li>La celda debe producir 3 productos distintos</li>
-                <li>La celda debe ser segura para los operarios de la fabrica</li>
-                <li>La celda debe permitir un fácil acceso para las tareas de mantenimiento</li>
-                <li>La celda debe cumplir los requerimientos de seguridad del proceso de pintura</li>
-                <li>La celda debe permitir el monitoreo visual para la operación de pintura</li>
-            </ol>
-
-            <p class="text-justify">La medida de desempeño que evaluara el proceso de diseño de celda de
-                manufactura robotiza para el proceso de pintura es el número de piezas que puede
-                procesar la celda de manufactura.
-            </p>
-
-            <h3 class="text-center">Selección de Celda Robotizada</h3>
-
-            <p class="text-justify">Con base en los tiempos de ciclo de cada uno de los procesos, se evidencia que
-                los procesos de corte y pintura (sellado) son los que mayor tiempo conllevan en la
-                operación del proceso de producción de la planta, por lo tanto, son los dos
-                principales procesos factibles para la automatización robotizada de la planta. 
-            </p>
-
-            <p class="text-justify">Como se tiene que para el proceso de corte el tiempo de ciclo es de 12 minutos y
-                para el proceso de sellado es de 18 minutos, no es decisorio que la elección del
-                proceso a robotizar solo se base con este criterio, por lo tanto, tomando en cuenta
-                un criterio mas humanizado, es decir, observando los peligros para la salud
-                humana a los cuales puedan estar presentes en la operación de estos procesos
-                por parte de los operadores, se tiene que:
-            </p>
-
+            <li>Transporte del material</li>
             <ol>
-                <li>Proceso de corte:</li>
-                <ol type="a">
-                    <li>Proyección de partículas y polvo</li>
-                    <li>Rotura del disco</li>
-                    <li>Cortes y amputaciones</li>
-                    <li>Golpes por objetos</li>
-                    <li>Ruido ambiental</li>
-                </ol>
+              <li>(Rg8) Colisión entre las matrices de pintura con los operarios: Debido a que las
+                matrices de pintura se transportan de forma aérea, pueden existir golpes con los
+                operarios debido a que estos se encuentran en zonas adyacentes a la operación de
+                este medio de transporte.</li>
+            </ol>
+        </ol>
+      </div>
 
-                <li>Proceso de sellado:</li>
-                <ol type="a">
-                    <li>Presencia de líquidos y vapores inflamables</li>
-                    <li>Daños en órganos tras exposiciones prolongadas o repetitivas por
-                        inhalación.</li>
-                    <li>Irritación ocular grave</li>
-                    <li>Irritación cutánea</li>
-                </ol>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">IDENTIFICACION DEL NIVEL DEL RIESGO</h2>
+          <div class="linea"></div>
+        </div>
+
+        <p class="text-center">
+          Para cada uno de los riesgos identificados es estima el nivel del riesgo como se propone en la norma
+(ISO 13849-1), para lo cual seguimos la guía técnica N°10 – seguridad funcional proporcionada por
+ABB, la cual se muestra a continuación:
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Informacion - Seguridad - Pagina Web/clasificacion del riesgo.jpg"
+          alt="Simulación de planta"
+        />
+
+        <p class="text-center">
+          El desarrollo de este análisis permite identificar la ruta que define la categoría del riesgo para el nivel
+de prestaciones requerido, para lo cual es necesario reducir para disminuir la fuente del riesgo.
+Usando el siguiente árbol se puede determinar el nivel de riesgo persistente en la celda de
+manufactura robótica.
+        </p>
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Informacion - Seguridad - Pagina Web/arbol del riesgo.png"
+          alt="Simulación de planta"
+        />
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Informacion - Seguridad - Pagina Web/cuadro.png"
+          alt="Simulación de planta"
+        />
+
+        <img
+          class="img-responsive scale-in-top center-block"
+          src="Documents/6. Celda/Informacion - Seguridad - Pagina Web/Riesgos.jpg"
+          alt="Simulación de planta"
+        />
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">REDUCCION DE RIESGOS</h2>
+          <div class="linea"></div>
+        </div>
+
+        <ol type="1">
+          <li>Medidas de diseño intrínsecamente seguras: creación de un diseño más seguro,
+            modificación del proceso, eliminación del riesgo mediante el diseño.</li>
+          <li>Medidas de protección y salvaguarda complementarias: funciones de seguridad, protección
+            fija.</li>
+          <li>Información para el uso (gestión del riesgo residual):</li>
+          <ol type="a">
+            <li>Dispositivos, señales y signos de aviso en la máquina y</li>
+            <li>en las instrucciones de funcionamiento.</li>
+          </ol>
+        </ol>
+
+        <p class="text-center">
+          Para los riesgos identificados en la celda de manufactura propuesta se usó este el método para la
+reducción de riesgos:
+        </p>
+
+        <ol>
+          <li>Modo de Operación Normal (Celda en producción)</li>
+          <ol>
+            <li>(Rg1) Funcionamiento anormal de la celda: Para la prevención y reducción de estos riesgos se ubican botones de paro
+              de emergencia en las zonas aledañas la ubicación de los operarios que están
+              dentro de la celda integrada, con el fin de parar los movimientos del robot
+              dado su funcionamiento errático y anormal.</li>
+            <li>(Rg2) Golpe del robot a los operarios: Se realiza la debida demarcación de la zona de trabajo del robot con el fin
+              de que el operario o los operarios identifiquen las zonas de riesgo, en donde
+              pueden entrar en interferencia con el robot y generar daños a si mismos.</li>
+            <li>(Rg3) Daño al sistema respiratorio de los operarios de la planta: La celda robótica se encuentra encerrada dentro de una cabina de pintura
+              la cual evita la interacción directa entre los operarios que intervienen en el
+              proceso y la ejecución de este.</li>
+            <li>(Rg4) Incendio de la Celda de manufactura: Por medio de la implementación de la cabina de pintura, los elementos
+              inflamables presentes durante el proceso son extraídos del sistema con el fin
+              de evitar la interacción con los elementos que puedan generar chispas.
+              Además, se implementa la ubicación de extintores de incendios y la debida
+              señalización.</li>
+              <li>(Rg5) Ingreso de personal no autorizado en la celda robótica: Se implementa cerramiento de la cabina de pintura implementada con el fin
+                de evitar el ingreso de personal no autorizado a la misma, además la
+                ubicación de un sensor en la puerta de la cabina que permita bloquear la
+                operación del robot. También la implementación de señalización que
+                informen la zona restringida</li>
+              <li>(Rg6) Fuga de partículas generados por el proceso: Implementación de extractor de aire que permita la eliminación de las
+                partículas generadas durante el proceso.</li>
             </ol>
 
-            <p class="text-justify">
-                Con base en estos dos criterios, se realiza la elección que el proceso de sellado es
-                el mas factible para el diseño de la celda de manufactura robotizada, dado que
-                ante los factores estudiados, es imprescindible favorecer la salud humana.
-            </p>
+          <li>Modo Mantenimiento de la celda de manufactura</li>
+          <ol>
+            <li>(Rg7) Movimientos del robot mientras se realizan operaciones de mantenimiento: Por medio de la implementación de bloqueo del robot, como lo son los
+              switches que permita entrar en el estado de mantenimiento dentro de la
+              programación, en la cual, el robot no pueda ejecutar rutinas de movimiento,
+              además de la implementación de un switch que corta la energía de
+              alimentación de los elementos eléctricos que generen riesgos de
+              movimiento dentro del proceso.</li>
+          </ol>
+
+          <li>Transporte del material</li>
+          <ol>
+            <li>(Rg8) Colisión entre las matrices de pintura con los operarios: Realizar la debida demarcación de la zona en donde pueda haber injerencia
+              entre los operarios de la celda de manufactura y las matrices de pintura que
+              son transportadas de forma aérea.</li>
+          </ol>
+        </ol>
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">EVALUACION DE RIESGOS</h2>
+          <div class="linea"></div>
         </div>
 
-        <div class="container">
-            <div class="section-header">
-                <h2 class="text-center wow fadeInDown">Diseño</h2>
-                <div class="linea"></div>
-            </div>
+        <p class="text-center">
+          A partir de la evaluación de riesgo se considera que los dispositivos de control proveen la seguridad
+suficiente al ser controlado con un controlador ABB, el cual garantiza el cumplimiento de la norma
+de seguridad ISO 10218-1, el cual tiene un nivel de prestaciones PL e. Con las medidas adoptadas se
+redujo la frecuencia en las que se dan los riesgos. Con esto se considera que el riesgo se reduce a un
+nivel aceptable.
+        </p>
+      </div>
 
-            
-
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">Video simulación Celda robótica</h2>
+          <div class="linea"></div>
         </div>
 
-        <div class="container">
-            <div class="section-header">
-                <h2 class="text-center wow fadeInDown">Modelo en RobotStudio</h2>
-                <div class="linea"></div>
-            </div>
+        <iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/u6cdnQpbI7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
 
-            
 
-        </div>
-
-        <div class="container">
-            <div class="section-header">
-                <h2 class="text-center wow fadeInDown">Identificación</h2>
-                <div class="linea"></div>
-            </div>
-
-            
-
-        </div>
     </section>
 
-
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/mousescroll.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
@@ -406,5 +865,5 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/custom-scripts.js"></script>
-</body>
+  </body>
 </html>

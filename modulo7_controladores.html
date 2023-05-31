@@ -1,168 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="webthemez">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="webthemez" />
     <title>MadeMatic</title>
-	<!-- core CSS 
+    <!-- core CSS 
         <link rel="stylesheet" href="css/style1.css">
     -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/solid.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet"> 
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/solid.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <script src="js/wow.min.js"></script>
     <script>
-        new WOW().init();
+      new WOW().init();
     </script>
     <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>    
-    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
-</head> 
+    <script src="js/respond.min.js"></script>
+    <link rel="shortcut icon" href="images/ico/favicon.ico" />
+  </head>
 
-<body id="home">
+  <body id="home">
     <header id="header">
-        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logos/Logo07-1.png" width="70" alt="logo"></a>
-                </div>
-				
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="index.html">Inicio</a></li> 
-                        <li class="scroll"><a href="index.html#productos">Productos</a></li>
-                        
-                        <div class="dropdown navbar-nav ">
-                            <button onclick="myFunction()" class="dropbtn scroll">Módulos</button>
-                            <div id="myDropdown" class="dropdown-content">
-                              <a href="modulo1_gestion.html#gestion">Gestión de Producción y Automatización</a>
-                              <a href="modulo2_industria.html#industria">Industria 4.0 en la Automatización</a>
-                              <a href="modulo3_planeacion.html#planeacion">Planeación del Proyecto</a>
-                              <a href="modulo4_evaluacion.html#evaluacion">Evaluación Económica de Proyectos</a>
-                              <a href="modulo5_celda.html#celda">Celda de Manufactura Robotizada</a>
-                              <a href="modulo6_digital.html#digital">Digital Factory</a>
-                              <a href="modulo7_controladores.html#controladores">Controladores Industriales (PLC)</a>
-                              <a href="modulo8_comunicaciones.html#comunicaciones">Comunicaciones</a>
-                              <a href="modulo9_scada.html#scada">SCADA</a>
-                            </div>
-                        </div>
+      <nav
+        id="main-nav"
+        class="navbar navbar-default navbar-fixed-top"
+        role="banner"
+      >
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"
+              ><img src="images/logos/Logo07-1.png" width="70" alt="logo"
+            /></a>
+          </div>
 
-                        <script>
-                            /* When the user clicks on the button,
+          <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="scroll active"><a href="index.html">Inicio</a></li>
+              <li class="scroll">
+                <a href="index.html#productos">Productos</a>
+              </li>
+
+              <div class="dropdown navbar-nav">
+                <button onclick="myFunction()" class="dropbtn scroll">
+                  Módulos
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="modulo1_gestion.html#gestion"
+                    >Gestión de Producción y Automatización</a
+                  >
+                  <a href="modulo2_industria.html#industria"
+                    >Industria 4.0 en la Automatización</a
+                  >
+                  <a href="modulo3_planeacion.html#planeacion"
+                    >Planeación del Proyecto</a
+                  >
+                  <a href="modulo4_evaluacion.html#evaluacion"
+                    >Evaluación Económica de Proyectos</a
+                  >
+                  <a href="modulo5_celda.html#celda"
+                    >Celda de Manufactura Robotizada</a
+                  >
+                  <a href="modulo6_digital.html#digital">Digital Factory</a>
+                  <a href="modulo7_controladores.html#controladores"
+                    >Controladores Industriales (PLC)</a
+                  >
+                  <a href="modulo8_comunicaciones.html#comunicaciones"
+                    >Comunicaciones</a
+                  >
+                  <a href="modulo9_scada.html#scada">SCADA</a>
+                </div>
+              </div>
+
+              <script>
+                /* When the user clicks on the button,
                             toggle between hiding and showing the dropdown content */
-                            function myFunction() {
-                            document.getElementById("myDropdown").classList.toggle("show");
-                            }
+                function myFunction() {
+                  document
+                    .getElementById("myDropdown")
+                    .classList.toggle("show");
+                }
 
-                            // Close the dropdown menu if the user clicks outside of it
-                            window.onclick = function(event) {
-                            if (!event.target.matches('.dropbtn')) {
-                                var dropdowns = document.getElementsByClassName("dropdown-content");
-                                var i;
-                                for (i = 0; i < dropdowns.length; i++) {
-                                var openDropdown = dropdowns[i];
-                                if (openDropdown.classList.contains('show')) {
-                                    openDropdown.classList.remove('show');
-                                }
-                                }
-                            }
-                            }
-                        </script>
+                // Close the dropdown menu if the user clicks outside of it
+                window.onclick = function (event) {
+                  if (!event.target.matches(".dropbtn")) {
+                    var dropdowns =
+                      document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains("show")) {
+                        openDropdown.classList.remove("show");
+                      }
+                    }
+                  }
+                };
+              </script>
 
-                        <li class="scroll"><a href="avance1.html">Primer Avance</a></li>
-                        <li class="scroll"><a href="index.html#our-team">Equipo</a></li>                       
-                    </ul>
-                    <a class="navbar-brand" href="index.html#home"><img src="images/logo_unal.png" width="140" alt="logo"></a>
-                </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
-    </header><!--/header-->
+              <li class="scroll"><a href="avance1.html">Primer Avance</a></li>
+              <li class="scroll"><a href="index.html#our-team">Equipo</a></li>
+            </ul>
+            <a class="navbar-brand" href="index.html#home"
+              ><img src="images/logo_unal.png" width="140" alt="logo"
+            /></a>
+          </div>
+        </div>
+        <!--/.container-->
+      </nav>
+      <!--/nav-->
+    </header>
+    <!--/header-->
 
     <section id="hero-banner">
-             <div class="banner-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    </section><!--/#main-slider-->
-
+      <div class="banner-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#main-slider-->
 
     <section id="controladores">
+      <div class="section-header">
+        <h2 class="section-title wow fadeInDown">
+          Controladores Industriales (PLC)
+        </h2>
+      </div>
+
+      <div class="container">
         <div class="section-header">
-            <h2 class="section-title wow fadeInDown">Controladores Industriales (PLC)</h2>
+          <h2 class="text-center wow fadeInDown">Grafcet</h2>
+          <div class="linea"></div>
         </div>
 
-        <div class="container">
-            <div class="section-header">
-                <h2 class="text-center wow fadeInDown">Ladder</h2>
-                <div class="linea"></div>
-            </div>
-            <p class="text-center">
-                holadasdasd
-            </p>
-            <h3 class="text-center">
-                Opción 1
-            </h3>
+        <h3 class="text-center">Grafcet MadeMatic</h3>
 
-            <embed src="Documents/7. PLC/LadderMadematic.pdf" type="application/pdf" width="100%" height="700px">
+        <embed
+          src="Documents/7. PLC/MadematicGrafcetV3.pdf"
+          type="application/pdf"
+          width="100%"
+          height="700px"
+        />
 
-            <h3 class="text-center">
-                Opción 2
-            </h3>
-    
-            <embed src="Documents/7. PLC/ProgramaLadderPlanta.pdf" type="application/pdf" width="100%" height="700px">
+        <p class="text-center">
+          En primer lugar, se identifican las diferentes operaciones
+          involucradas en el proceso de fabricación de los productos escogidos.
+          En este caso, se tienen las siguientes: Entrada al Taladrado, la
+          entrada al Ruteado, las salidas de la ruter 1, 2 y 3, el corte de tubo
+          metálico, la entrada a distribución, la salida de la celda robótica y,
+          finalmente, el empacado. Se busca que el programa general una vez se
+          halla pulsado un botón de Start permita, teniendo en cuenta la
+          posición de un selector, elegir entre uno de los 3 productos a
+          manufacturar, bien sea el producto 1, 2 ó 3. Con este objetivo en
+          mente, se plantea una etapa inicial en la que se asocian las acciones
+          de que todos los actuadores deben estar contraídos o apagados. La
+          transición que permite avanzar a la macroetapa 10 tiene como condición
+          que se pulse el botón Start y que se eliga uno de los tres productos a
+          manufacturar.
+        </p>
+
+        <p class="text-center">
+          Macroetapas: Una vez seleccionado el producto se ira pasando a una
+          serie de macroetapas de manera secuencial, vale la pena aclarar que
+          abra momentos de simultaneidad en donde se desarrollen al menos dos
+          macroetapas contiguamente. Cada operación mencionada anteriormente se
+          convierte en una macroetapa en el Grafcet. Las macroetapas representan
+          los diferentes pasos o procesos en el flujo de trabajo.
+        </p>
+
+        <p class="text-center">
+          Transiciones: Las transiciones representan las condiciones que deben
+          cumplirse para pasar de una etapa a otra. Entre una macroetapa y otra
+          existen diferentes transiciones que dan cuenta de la relación que
+          estas tienen, por ejemplo, la macroetapa de entrada al taladrado se
+          ejecutara una vez se presione el botón Start y se seleccione el
+          producto 1 y dará paso a las siguientes macroetapas una vez hallan
+          entrado a taladrado 16 piezas. Las siguientes etapas de entrada a
+          ruteado y corte de tubo metálico serán ejecutadas de manera
+          simultánea, por lo que se aprecia una bifurcación en AND. Cuando cada
+          una de las ramas ha llegado a su etapa de espera, en que 4 tubos sean
+          cortados y 16 piezas sean ruteadas, se puede continuar con la
+          siguiente etapa. A continuación, se presentan 3 transiciones que
+          permitirán pasar bien sea a la etapa de la salida de la ruter 1 ó la
+          etapa de la salida de la ruter 2 ó a la etapa de la salida de la ruter
+          3. Estas transiciones se darán si un contador es igual a una constante
+          y si se detecta una pieza a la salida de la ruter respectiva. Una vez
+          salgan la totalidad de las pieza se seguirá con la macroetapa 80 hasta
+          llegar a la macroetapa 120. Finalmente, después de completar el
+          empacado, el sistema vuelve a la etapa de corte de láminas de madera
+          para iniciar un nuevo ciclo de fabricación.
+        </p>
+
+        <p class="text-center">
+          Definición de los modos: Los modos representan el estado activo de
+          cada etapa y sus correspondientes dispositivos. En este caso, hemos
+          identificado los siguientes modos:
+        </p>
+
+        <p class="text-center">
+          a. Modo de taladrado: Durante esta etapa, la estación de taladrado
+          está activa y en funcionamiento.
+        </p>
+
+        <p class="text-center">
+          b. Modo de ruteado: Durante esta etapa, la estación de ruteado está
+          activa y en funcionamiento.
+        </p>
+
+        <p class="text-center">
+          c. Modo de corte de tubo metálico: Durante esta etapa, la estación de
+          corte de tubo metálico está activa y en funcionamiento.
+        </p>
+
+        <p class="text-center">
+          d. Modo de salida de router 1, 2 y 3: Durante esta etapa, las salidas
+          de las ruters están activas y en funcionamiento.
+        </p>
+
+        <p class="text-center">
+          e. Modo de manufactura: Durante esta etapa, la celda de manufactura
+          está activa y en funcionamiento.
+        </p>
+
+        <p class="text-center">
+          f. Modo de empacado: Durante esta etapa, la estación de empacado está
+          activa y en funcionamiento.
+        </p>
+
+        <p class="text-center">
+          Estos modos representan el estado en el que se encuentran los
+          dispositivos correspondientes en cada macroetapa.
+        </p>
+
+        <h3 class="text-center">Grafcet Taladrado</h3>
+
+        <embed
+          src="Documents/7. PLC/TaladradoGrafcetV3.pdf"
+          type="application/pdf"
+          width="100%"
+          height="700px"
+        />
+
+        <p class="text-center">
+          La lógica presentada anteriormente es la misma que se sigue
+          internamente en cada una de las macroetapas. Como ejemplo, una vez se
+          inicia la macroetapa 10 de taladrado se ejecuta la acción de bajar el
+          actuador de taladrado, se pasara a la etapa 11 una vez el actuador
+          esta abajo y se verifica que el motor de taladrado esta apagado, el
+          sensor de entrada al taladrado no esta activo y que el sensor de
+          origen se encuentra activo. La etapa 11 tiene asociada la accion de
+          prender el motor de la banda transportadora de taladrado, se pasara a
+          las siguientes etapas bajo la misma lógica. Finalmente, se pasara a la
+          etapa 11 si después de la etapa de salida de la macroetapa se
+          presentan una condiciones sumada a que el contador de taladrado sea
+          menor a 16. Se pasara a la siguiente macroetapa si este es 16.
+        </p>
+
+        <p class="text-center">
+          A continuacion se presenta la macroetapa de ruteado:
+        </p>
+
+        <h3 class="text-center">Grafcet Ruteado</h3>
+
+        <embed
+          src="Documents/7. PLC/RuteadoGrafcetV3.pdf"
+          type="application/pdf"
+          width="100%"
+          height="700px"
+        />
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h2 class="text-center wow fadeInDown">Ladder</h2>
+          <div class="linea"></div>
         </div>
+        <p class="text-center">
+          Hecha la etapa de grafcet en su totalidad, se hace la programación de
+          ladder a la manera de grafcet tal y como lo explica el docente, donde
+          se destacan dos porciones de código, una en la que se expresan las
+          diferentes transciones y etapas del grafcet y otra donde se expresa
+          como tal la lógica de programación.
+        </p>
+        <h3 class="text-center">Opción 1</h3>
 
-        <div class="container">
-            <div class="section-header">
-                <h2 class="text-center wow fadeInDown">Grafcet</h2>
-                <div class="linea"></div>
-            </div>
+        <embed
+          src="Documents/7. PLC/LadderMadematic.pdf"
+          type="application/pdf"
+          width="100%"
+          height="700px"
+        />
 
-            <h3 class="text-center">
-                Grafcet MadeMatic
-            </h3>
+        <h3 class="text-center">Opción 2</h3>
 
-            <embed src="Documents/7. PLC/MadematicGrafcet.pdf" type="application/pdf" width="100%" height="700px">
-
-            <h3 class="text-center">
-                Grafcet Ruteado
-            </h3>
-    
-            <embed src="Documents/7. PLC/RuteadoGrafcet.pdf" type="application/pdf" width="100%" height="700px">
-    
-            <h3 class="text-center">
-                Grafcet Taladrado
-            </h3>
-    
-            <embed src="Documents/7. PLC/TaladradoGrafcet.pdf" type="application/pdf" width="100%" height="700px">
-    
-
-        </div>
+        <embed
+          src="Documents/7. PLC/ProgramaLadderPlanta.pdf"
+          type="application/pdf"
+          width="100%"
+          height="700px"
+        />
+      </div>
     </section>
 
-
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/mousescroll.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
@@ -170,5 +332,5 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/custom-scripts.js"></script>
-</body>
+  </body>
 </html>
